@@ -1,0 +1,77 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+{% block title %}
+Карточка книги
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Список книг</h1>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Название</th>
+            <th scope="col">Авторы</th>
+        </tr>
+        </thead>
+        <tbody v-for="card in bookCards">
+        <tr>
+            <th scope="row"></th>
+            <td>
+                <a :href="card.href">${card.title_short}$</a>
+            </td>
+            <td>
+                <div v-for="author in card.authors">
+                    ${ author.full_name }$
+                </div>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="Pagination">
+        <ul class="pagination justify-content-center">
+            <li class="page-item" :class="{ 'disabled': currentPage === 1 }">
+                <a class="page-link" href="#" @click.prevent="getBooks(1)">
+                    <img src="/static/frontend/assets/img/icons/prevPagination.svg"
+                         alt="prevPagination.svg"/>
+                </a>
+            </li>
+
+            <li v-if="currentPage > 3" class="page-item disabled">
+                <span class="page-link">...</span>
+            </li>
+
+            <li v-for="i in Math.min(5, lastPage)" :key="i" class="page-item">
+                <a class="page-link"
+                   :class="{ 'Pagination-element_current': i === currentPage }"
+                   @click.prevent="getBooks(i)"
+                   href="#">
+                    ${i}$
+                </a>
+            </li>
+
+            <li v-if="currentPage < lastPage - 2" class="page-item disabled">
+                <span class="page-link">...</span>
+            </li>
+
+            <li class="page-item" :class="{ 'disabled': currentPage === lastPage }">
+                <a class="page-link" href="#" @click.prevent="getBooks(lastPage)">
+                    <img src="/static/frontend/assets/img/icons/nextPagination.svg"
+                         alt="nextPagination.svg"/>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+
+
+{% endblock %}
+
+{% block mixins %}
+<script src="{% static 'frontend/assets/js/catalog.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,137 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+{% block title %}
+    Профиль
+{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<div class="Middle Middle_top">
+    <div class="Middle-top">
+        <div class="wrap">
+            <div class="Middle-header">
+                <h1 class="Middle-title">Профиль
+                </h1>
+                <ul class="breadcrumbs Middle-breadcrumbs">
+                    <li class="breadcrumbs-item"><a href="/">Главная</a>
+                    </li>
+                    <li class="breadcrumbs-item breadcrumbs-item_current"><span>Профиль</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Section Section_column Section_columnLeft">
+        <div class="wrap">
+            <div class="Section-column">
+                <div class="Section-columnSection">
+                    {% include 'includes/profile-menu.html' %}
+                </div>
+            </div>
+            <div class="Section-content">
+                <div class="Profile">
+                    <div class="row">
+                        <div class="row-block">
+
+                            <form action="" @submit.prevent="changeProfile">
+                                <div class="form-group">
+                                    <label class="form-label" for="avatar">Аватар</label>
+                                    <div v-if="!avatar" class="Profile-avatar Profile-avatar_noimg">
+                                        <label class="Profile-fileLabel" for="avatar">Выберите аватар</label>
+                                        <input class="Profile-file form-input" @change="setAvatar"
+                                               @click="$event.target.value = null" type="file"
+                                               id="avatar" name="avatar" data-validate="onlyImgAvatar"/>
+                                    </div>
+                                    <div v-else class="Profile-img">
+                                        <img :src="avatar" style="height: 150px;"/>
+                                        <label class="Profile-fileLabel" for="avatar1">Выберите аватар</label>
+                                        <input class="Profile-file form-input" @change="setAvatar"
+                                               @click="$event.target.value = null" type="file"
+                                               id="avatar1" name="avatar" data-validate="onlyImgAvatar"/>
+                                    </div>
+                                    <div v-if="avatarUpdated" class="success-message">
+                                        Ававтар успешно обновлен!
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="name">ФИО</label>
+                                    <input class="form-input" id="name" name="name" type="text" v-model="fullName"
+                                           :class="{ 'error': !fullName.trim().length }"/>
+                                    <span v-if="!fullName.trim().length" class="error-text">
+                                        Поле полного имени должно быть заполнено
+                                    </span>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">Номер телефона</label>
+                                    <input class="form-input" id="phone" name="phone" type="tel" v-model="phone"/>
+                                    <!--            <span v-if="!phone.trim().length" class="error-text">Поле Телефон должно быть заполнено</span>-->
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="email">E-mail</label>
+                                    <input class="form-input" id="email" name="email" type="email" required
+                                           v-model="email"
+                                           :class="{ 'error': !email.trim().length || !isEmailValid(email) }"/>
+                                    <span class="error-text" v-if="!email.trim().length">
+                                        Поле E-mail должно быть заполнено
+                                    </span>
+                                    <span class="error-text"
+                                          v-else-if="!isEmailValid(email)">
+                                        Неправильный формат электронной почты
+                                    </span>
+                                </div>
+
+                                <div v-if="profileUpdated" class="success-message">
+                                    Профиль успешно обновлен
+                                </div>
+
+                                <div class="form-group">
+                                    <button class="btn btn_success" type="submit">Сохранить</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="row-block">
+                            <form action="" @submit.prevent="changePassword">
+                                <div class="form-group">
+                                    <label class="form-label" for="passwordCurrent">Текущий пароль</label>
+                                    <input class="form-input" id="passwordCurrent" name="passwordCurrent"
+                                           type="password" placeholder="Введите текущий пароль"
+                                           v-model="passwordCurrent"/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="password">Новый пароль</label>
+                                    <input class="form-input" id="password" name="password" type="password"
+                                           placeholder="Введите новый пароль" v-model="password"/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="passwordReply">Подтверждение пароля</label>
+                                    <input class="form-input" id="passwordReply" name="passwordReply" type="password"
+                                           placeholder="Введите парольповторно" v-model="passwordReply"/>
+                                </div>
+                                <div v-if="passwordUpdated" class="success-message">
+                                    Пароль успешно обновлен
+                                </div>
+                                <div v-if="passwordError" class="error-message" style="font-size: 14px; color: red;">
+                                    Неправильный текущий пароль
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn_success" type="submit">Сохранить</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+{% include 'includes/no-authorized.html' %}
+{% endif %}
+{% endblock %}
+
+{% block mixins %}
+<script>var pk = {{request.user.pk}}</script>
+<script src="{% static 'frontend/assets/js/profile.js' %}"></script>
+{% endblock %}

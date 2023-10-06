@@ -1,0 +1,41 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+{% block title %}
+    Популярные книги
+{% endblock %}
+
+{% block content %}
+<div class="Section Section_column Section_columnDesktop">
+    <div class="wrap">
+        <div class="Section-content">
+            <header class="Section-header">
+                <h2 class="Section-title">Популярные книги
+                </h2>
+            </header>
+            <div class="Cards">
+                <!-- Получаем популярные книги -->
+                <div v-for="card in popularCards" class="Card">
+                    <a class="Card-picture" :href="card.href">
+                        <img v-if="card.images.length > 0" :src="card.images[0]" :alt="card.title"/></a>
+                    <div class="Card-content">
+                        <strong class="Card-title"><a :href="card.href">${ card.title }$</a>
+                        </strong>
+                        <div class="Card-description">
+                            <div class="Card-cost"><span class="Card-price">₽${ card.price }$</span>
+                            </div>
+                            <div class="Card-category">${ card.categoryName }$
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Получаем популярные книги -->
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block mixins %}
+<script src="{% static 'frontend/assets/js/index.js' %}"></script>
+{% endblock %}

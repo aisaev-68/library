@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "library"
+version = "0.1.0"
+description = ""
+authors = ["ramazan_aisaev <aisaev-68@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-decouple = "^3.8"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+drf-yasg = "^1.21.7"
+pillow = "^10.0.1"
+docutils = "^0.20.1"
+django-cors-headers = "^4.2.0"
+mimesis = "^11.1.0"
+coreapi = "^2.3.3"
+psycopg2-binary = "^2.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

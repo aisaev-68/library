@@ -1,0 +1,53 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<div class="Middle Middle_top">
+    <div class="Middle-top">
+        <div class="wrap">
+            <div class="Middle-header">
+                <h1 class="Middle-title">Личный кабинет
+                </h1>
+                <ul class="breadcrumbs Middle-breadcrumbs">
+                    <li class="breadcrumbs-item"><a href="/">Главная</a>
+                    </li>
+                    <li class="breadcrumbs-item breadcrumbs-item_current"><span>Личный кабинет</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Section Section_column Section_columnLeft">
+        <div class="wrap">
+            <div class="Section-column">
+                <div class="Section-columnSection">
+                    {% include 'includes/profile-menu.html' %}
+                </div>
+            </div>
+            <div class="Section-content">
+                <div class="Account">
+                    <div class="Account-group">
+                        <div class="Account-column">
+                            <div class="Account-avatar">
+                                <img v-if="avatar" :src="avatar" :alt="avatar.alt"/>
+                            </div>
+                        </div>
+                        <div class="Account-column">
+                            <div class="Account-name">${ fullName }$</div>
+                            <a class="Account-editLink" href="/profile">Редактировать профиль</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+{% include 'includes/no-authorized.html' %}
+{% endif %}
+{% endblock %}
+
+{% block mixins %}
+<script src="{% static 'frontend/assets/js/userAccount.js' %}"></script>
+{% endblock %}

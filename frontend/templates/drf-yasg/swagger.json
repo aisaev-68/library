@@ -1,0 +1,1389 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Swagger Diploma Project",
+    "description": "",
+    "termsOfService": "https://www.google.com/policies/terms/",
+    "contact": {
+      "email": "contact@snippets.local"
+    },
+    "license": {
+      "name": ""
+    },
+    "version": "1.0.0"
+  },
+  "host": "127.0.0.1",
+  "schemes": [
+    "http"
+  ],
+  "basePath": "/api",
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "securityDefinitions": {
+    "Basic": {
+      "type": "basic"
+    }
+  },
+  "security": [
+    {
+      "Basic": []
+    }
+  ],
+  "paths": {
+    "/account/": {
+      "get": {
+        "operationId": "account_list",
+        "description": "Метод для получения аватара и полного имени.\n:param request:\n:param args:\n:param kwargs:\n:return: Response",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "account"
+        ]
+      },
+      "parameters": []
+    },
+    "/banners/": {
+      "get": {
+        "operationId": "banners_list",
+        "description": "Представление для получения баннеров главной страницы.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "banners"
+        ]
+      },
+      "parameters": []
+    },
+    "/basket/": {
+      "get": {
+        "operationId": "basket_list",
+        "description": "Представление для получения и удаления продуктов из корзины, добавления продуктов в корзину",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "basket"
+        ]
+      },
+      "post": {
+        "operationId": "basket_create",
+        "summary": "Добавление продукта в корзину",
+        "description": "Входные переменные:\n    - request: объект запроса\nВозвращаемые значения:\n    - response: объект ответа с данными добавленного продукта",
+        "parameters": [
+          {
+            "name": "data",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "required": [
+                "id",
+                "count"
+              ],
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "count": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "",
+            "schema": {
+              "required": [
+                "id",
+                "count"
+              ],
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "count": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "basket"
+        ]
+      },
+      "delete": {
+        "operationId": "basket_delete",
+        "summary": "Удаление продукта из корзины",
+        "description": "Входные переменные:\n    - request: объект запроса\nВозвращаемые значения:\n    - response: объект ответа с данными удаленного продукта или пустой массив",
+        "parameters": [
+          {
+            "name": "data",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "required": [
+                "id",
+                "count"
+              ],
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "count": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "basket"
+        ]
+      },
+      "parameters": []
+    },
+    "/cart/": {
+      "get": {
+        "operationId": "cart_list",
+        "summary": "Получение продуктов из корзины",
+        "description": "Входные переменные:\n    - request: объект запроса\nВозвращаемые значения:\n    - response: объект ответа с сериализованными данными продуктов из корзины",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "cart"
+        ]
+      },
+      "parameters": []
+    },
+    "/catalog/": {
+      "get": {
+        "operationId": "catalog_list",
+        "description": "get catalog items",
+        "parameters": [
+          {
+            "name": "filterSearch",
+            "in": "query",
+            "description": "Search text",
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Page number",
+            "type": "integer"
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "description": "Category ID",
+            "type": "integer"
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Sort field",
+            "type": "string",
+            "enum": [
+              "date",
+              "price",
+              "rating",
+              "reviews"
+            ]
+          },
+          {
+            "name": "sortType",
+            "in": "query",
+            "description": "Sort type (dec/inc)",
+            "type": "string",
+            "enum": [
+              "dec",
+              "inc"
+            ]
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Items per page",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "catalog"
+        ]
+      },
+      "parameters": []
+    },
+    "/catalog/{id}/": {
+      "get": {
+        "operationId": "catalog_read",
+        "description": "get catalog items",
+        "parameters": [
+          {
+            "name": "filterSearch",
+            "in": "query",
+            "description": "Search text",
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Page number",
+            "type": "integer"
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "description": "Category ID",
+            "type": "integer"
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Sort field",
+            "type": "string",
+            "enum": [
+              "date",
+              "price",
+              "rating",
+              "reviews"
+            ]
+          },
+          {
+            "name": "sortType",
+            "in": "query",
+            "description": "Sort type (dec/inc)",
+            "type": "string",
+            "enum": [
+              "dec",
+              "inc"
+            ]
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Items per page",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "catalog"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "type": "string"
+        }
+      ]
+    },
+    "/categories/": {
+      "get": {
+        "operationId": "categories_list",
+        "description": "get catalog menu",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Category"
+              }
+            }
+          }
+        },
+        "tags": [
+          "categories"
+        ]
+      },
+      "parameters": []
+    },
+    "/check-authentication/": {
+      "get": {
+        "operationId": "check-authentication_list",
+        "description": "Метод проверки пользователя на аутентификацию.\n:param request:\n:return: статус аутентификации.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "check-authentication"
+        ]
+      },
+      "parameters": []
+    },
+    "/manufacturers/": {
+      "get": {
+        "operationId": "manufacturers_list",
+        "description": "get product detail",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Manufacturer"
+              }
+            }
+          }
+        },
+        "tags": [
+          "manufacturers"
+        ]
+      },
+      "parameters": []
+    },
+    "/orders/": {
+      "get": {
+        "operationId": "orders_list",
+        "description": "Представление для получения истории заказов.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "orders"
+        ]
+      },
+      "post": {
+        "operationId": "orders_create",
+        "description": "Представление для получения истории заказов.",
+        "parameters": [
+          {
+            "name": "data",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Product"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/OrderProduct"
+            }
+          }
+        },
+        "tags": [
+          "orders"
+        ]
+      },
+      "parameters": []
+    },
+    "/orders/active/": {
+      "get": {
+        "operationId": "orders_active_list",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "orders"
+        ]
+      },
+      "parameters": []
+    },
+    "/orders/{id}/": {
+      "get": {
+        "operationId": "orders_read",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "orders"
+        ]
+      },
+      "post": {
+        "operationId": "orders_create",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "orders"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "type": "string"
+        }
+      ]
+    },
+    "/payment/": {
+      "get": {
+        "operationId": "payment_list",
+        "description": "Оплата заказа",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "payment"
+        ]
+      },
+      "post": {
+        "operationId": "payment_create",
+        "description": "Оплата заказа",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "payment"
+        ]
+      },
+      "parameters": []
+    },
+    "/product/{id}/": {
+      "get": {
+        "operationId": "product_read",
+        "description": "get product detail",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/ProductReviews"
+            }
+          }
+        },
+        "tags": [
+          "product"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "type": "string"
+        }
+      ]
+    },
+    "/product/{id}/review/": {
+      "post": {
+        "operationId": "product_review_create",
+        "description": "add review menu",
+        "parameters": [
+          {
+            "name": "data",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "required": [
+                "author",
+                "email",
+                "text",
+                "rate"
+              ],
+              "type": "object",
+              "properties": {
+                "author": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string",
+                  "format": "email"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "rate": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/Review"
+            }
+          }
+        },
+        "tags": [
+          "product"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "type": "string"
+        }
+      ]
+    },
+    "/products/limited/": {
+      "get": {
+        "operationId": "products_limited_list",
+        "description": "Представление для получения лимитированных продуктов",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "products"
+        ]
+      },
+      "parameters": []
+    },
+    "/products/popular/": {
+      "get": {
+        "operationId": "products_popular_list",
+        "description": "Представление для получения популярных продуктов",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "products"
+        ]
+      },
+      "parameters": []
+    },
+    "/profile/": {
+      "get": {
+        "operationId": "profile_list",
+        "description": "Получить профиль пользователя",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Number of results to return per page.",
+            "required": false,
+            "type": "integer"
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The initial index from which to return the results.",
+            "required": false,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        },
+        "tags": [
+          "profile"
+        ]
+      },
+      "post": {
+        "operationId": "profile_create",
+        "description": "Обновить профиль пользователя",
+        "parameters": [
+          {
+            "name": "data",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        },
+        "tags": [
+          "profile"
+        ]
+      },
+      "parameters": []
+    },
+    "/profile/avatar/": {
+      "post": {
+        "operationId": "profile_avatar_create",
+        "description": "URL загруженного аватара.",
+        "parameters": [
+          {
+            "name": "avatar",
+            "in": "formData",
+            "required": false,
+            "type": "file",
+            "x-nullable": true
+          },
+          {
+            "name": "last_name",
+            "in": "formData",
+            "required": false,
+            "type": "string",
+            "maxLength": 150
+          },
+          {
+            "name": "first_name",
+            "in": "formData",
+            "required": false,
+            "type": "string",
+            "maxLength": 150
+          },
+          {
+            "name": "surname",
+            "in": "formData",
+            "required": false,
+            "type": "string",
+            "maxLength": 50
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/UserAvatar"
+            }
+          }
+        },
+        "consumes": [
+          "multipart/form-data"
+        ],
+        "tags": [
+          "profile"
+        ]
+      },
+      "parameters": []
+    },
+    "/profile/password/": {
+      "post": {
+        "operationId": "profile_password_create",
+        "description": "URL загруженного пароля.",
+        "parameters": [
+          {
+            "name": "data",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UserPasswordChange"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/UserPasswordChange"
+            }
+          }
+        },
+        "tags": [
+          "profile"
+        ]
+      },
+      "parameters": []
+    },
+    "/sale/": {
+      "get": {
+        "operationId": "sale_list",
+        "description": "Представление для получения товаров со скидками.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "sale"
+        ]
+      },
+      "parameters": []
+    },
+    "/search/": {
+      "get": {
+        "operationId": "search_list",
+        "description": "Представление для поиска товаров через строку поиска на странице.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "search"
+        ]
+      },
+      "parameters": []
+    },
+    "/sellers/": {
+      "get": {
+        "operationId": "sellers_list",
+        "description": "Предсталение для получения продавцов.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "sellers"
+        ]
+      },
+      "parameters": []
+    },
+    "/settings/": {
+      "get": {
+        "operationId": "settings_list",
+        "description": "Получить настройки",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/PaymentSettings"
+            }
+          }
+        },
+        "tags": [
+          "settings"
+        ]
+      },
+      "post": {
+        "operationId": "settings_create",
+        "description": "URL загруженных настроек.",
+        "parameters": [
+          {
+            "name": "data",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/PaymentSettings"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/PaymentSettings"
+            }
+          }
+        },
+        "tags": [
+          "settings"
+        ]
+      },
+      "parameters": []
+    },
+    "/specification/{id}/": {
+      "get": {
+        "operationId": "specification_read",
+        "description": "Представление для получения спецификаций.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "specification"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "type": "string"
+        }
+      ]
+    },
+    "/tags/": {
+      "get": {
+        "operationId": "tags_list",
+        "description": "Представление для получения тегов.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "tags"
+        ]
+      },
+      "parameters": []
+    }
+  },
+  "definitions": {
+    "Category": {
+      "required": [
+        "title"
+      ],
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "ID",
+          "type": "integer",
+          "readOnly": true
+        },
+        "title": {
+          "title": "Категория",
+          "type": "string",
+          "maxLength": 100,
+          "minLength": 1
+        },
+        "image": {
+          "title": "Image",
+          "type": "string",
+          "readOnly": true
+        },
+        "href": {
+          "title": "Href",
+          "type": "string",
+          "readOnly": true
+        },
+        "subcategories": {
+          "title": "Subcategories",
+          "type": "string",
+          "readOnly": true
+        }
+      }
+    },
+    "Manufacturer": {
+      "required": [
+        "name"
+      ],
+      "type": "object",
+      "properties": {
+        "pk": {
+          "title": "ID",
+          "type": "integer",
+          "readOnly": true
+        },
+        "name": {
+          "title": "Название",
+          "type": "string",
+          "maxLength": 150,
+          "minLength": 1
+        }
+      }
+    },
+    "Product": {
+      "required": [
+        "category",
+        "price",
+        "fullDescription"
+      ],
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "ID",
+          "type": "integer",
+          "readOnly": true
+        },
+        "category": {
+          "title": "Категория товара",
+          "type": "integer"
+        },
+        "price": {
+          "title": "Цена",
+          "type": "string",
+          "format": "decimal"
+        },
+        "count": {
+          "title": "Количество",
+          "type": "integer",
+          "maximum": 2147483647,
+          "minimum": -2147483648
+        },
+        "date": {
+          "title": "Дата создания",
+          "type": "string",
+          "format": "date-time",
+          "readOnly": true
+        },
+        "title": {
+          "title": "Title",
+          "type": "string",
+          "readOnly": true
+        },
+        "description": {
+          "title": "Description",
+          "type": "string",
+          "readOnly": true
+        },
+        "fullDescription": {
+          "title": "Полное описание товара",
+          "type": "string",
+          "maxLength": 100,
+          "minLength": 1
+        },
+        "href": {
+          "title": "Href",
+          "type": "string",
+          "readOnly": true
+        },
+        "freeDelivery": {
+          "title": "Бесплатная доставка",
+          "type": "boolean"
+        },
+        "images": {
+          "title": "Images",
+          "type": "string",
+          "readOnly": true
+        },
+        "tags": {
+          "title": "Tags",
+          "type": "string",
+          "readOnly": true
+        },
+        "attributes": {
+          "title": "Атрибуты",
+          "type": "object"
+        },
+        "reviews": {
+          "title": "Reviews",
+          "type": "string",
+          "readOnly": true
+        },
+        "rating": {
+          "title": "Rating",
+          "type": "string",
+          "readOnly": true
+        }
+      }
+    },
+    "OrderProducts": {
+      "type": "object",
+      "properties": {
+        "products": {
+          "title": "Products",
+          "type": "string",
+          "readOnly": true
+        }
+      }
+    },
+    "OrderProduct": {
+      "required": [
+        "email",
+        "phone",
+        "deliveryType",
+        "paymentType",
+        "products"
+      ],
+      "type": "object",
+      "properties": {
+        "orderId": {
+          "title": "Номер заказа",
+          "type": "integer",
+          "readOnly": true
+        },
+        "createdAt": {
+          "title": "Дата заказа",
+          "type": "string",
+          "format": "date-time",
+          "readOnly": true
+        },
+        "fullName": {
+          "title": "ФИО",
+          "type": "string",
+          "maxLength": 100,
+          "minLength": 1
+        },
+        "email": {
+          "title": "Email",
+          "type": "string",
+          "format": "email",
+          "maxLength": 254,
+          "minLength": 1
+        },
+        "phone": {
+          "title": "Номер телефона",
+          "type": "string",
+          "pattern": "^\\+?1?\\d{8,15}$",
+          "maxLength": 16,
+          "minLength": 1
+        },
+        "deliveryType": {
+          "title": "Наличие бесплатной доставки",
+          "type": "string",
+          "maxLength": 50,
+          "minLength": 1
+        },
+        "paymentType": {
+          "title": "Способ оплаты",
+          "type": "string",
+          "maxLength": 50,
+          "minLength": 1
+        },
+        "totalCost": {
+          "title": "Общая стоимость заказа",
+          "type": "integer",
+          "maximum": 2147483647,
+          "minimum": -2147483648
+        },
+        "status": {
+          "title": "Состояние платежа",
+          "type": "integer",
+          "maximum": 2147483647,
+          "minimum": -2147483648
+        },
+        "city": {
+          "title": "Город доставки",
+          "type": "string",
+          "maxLength": 50,
+          "minLength": 1
+        },
+        "address": {
+          "title": "Адрес доставки",
+          "type": "string",
+          "maxLength": 100
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrderProducts"
+          }
+        }
+      }
+    },
+    "Review": {
+      "required": [
+        "author",
+        "email",
+        "text",
+        "rate"
+      ],
+      "type": "object",
+      "properties": {
+        "author": {
+          "title": "Автор",
+          "type": "string",
+          "maxLength": 128,
+          "minLength": 1
+        },
+        "email": {
+          "title": "Email",
+          "type": "string",
+          "format": "email",
+          "minLength": 1
+        },
+        "text": {
+          "title": "Текст",
+          "type": "string",
+          "minLength": 1
+        },
+        "date": {
+          "title": "Дата создания",
+          "type": "string",
+          "format": "date-time",
+          "readOnly": true
+        },
+        "rate": {
+          "title": "Оценка",
+          "type": "integer",
+          "maximum": 5,
+          "minimum": 0
+        }
+      }
+    },
+    "ProductReviews": {
+      "required": [
+        "category",
+        "price",
+        "title",
+        "fullDescription",
+        "reviews"
+      ],
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "ID",
+          "type": "integer",
+          "readOnly": true
+        },
+        "category": {
+          "title": "Категория товара",
+          "type": "integer"
+        },
+        "price": {
+          "title": "Цена",
+          "type": "string",
+          "format": "decimal"
+        },
+        "count": {
+          "title": "Количество",
+          "type": "integer",
+          "maximum": 2147483647,
+          "minimum": -2147483648
+        },
+        "date": {
+          "title": "Дата создания",
+          "type": "string",
+          "format": "date-time",
+          "readOnly": true
+        },
+        "title": {
+          "title": "Название товара",
+          "type": "string",
+          "maxLength": 150,
+          "minLength": 1
+        },
+        "description": {
+          "title": "Description",
+          "type": "string",
+          "readOnly": true
+        },
+        "fullDescription": {
+          "title": "Полное описание товара",
+          "type": "string",
+          "maxLength": 100,
+          "minLength": 1
+        },
+        "href": {
+          "title": "Href",
+          "type": "string",
+          "readOnly": true
+        },
+        "freeDelivery": {
+          "title": "Бесплатная доставка",
+          "type": "boolean"
+        },
+        "images": {
+          "title": "Images",
+          "type": "string",
+          "readOnly": true
+        },
+        "tags": {
+          "title": "Tags",
+          "type": "string",
+          "readOnly": true
+        },
+        "specifications": {
+          "title": "Specifications",
+          "type": "string",
+          "readOnly": true
+        },
+        "reviews": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Review"
+          }
+        },
+        "rating": {
+          "title": "Rating",
+          "type": "string",
+          "readOnly": true
+        }
+      }
+    },
+    "User": {
+      "required": [
+        "fullName",
+        "email"
+      ],
+      "type": "object",
+      "properties": {
+        "fullName": {
+          "title": "ФИО",
+          "type": "string",
+          "maxLength": 100,
+          "minLength": 1
+        },
+        "phone": {
+          "title": "Номер телефона",
+          "type": "string",
+          "maxLength": 20,
+          "x-nullable": true
+        },
+        "email": {
+          "title": "Адрес электронной почты",
+          "type": "string",
+          "format": "email",
+          "maxLength": 254,
+          "minLength": 1
+        },
+        "avatar": {
+          "title": "Аватар",
+          "type": "string",
+          "readOnly": true,
+          "x-nullable": true,
+          "format": "uri"
+        }
+      }
+    },
+    "UserAvatar": {
+      "type": "object",
+      "properties": {
+        "avatar": {
+          "title": "Аватар",
+          "type": "string",
+          "readOnly": true,
+          "x-nullable": true,
+          "format": "uri"
+        },
+        "last_name": {
+          "title": "Фамилия",
+          "type": "string",
+          "maxLength": 150
+        },
+        "first_name": {
+          "title": "Имя",
+          "type": "string",
+          "maxLength": 150
+        },
+        "surname": {
+          "title": "Отчество",
+          "type": "string",
+          "maxLength": 50
+        }
+      }
+    },
+    "UserPasswordChange": {
+      "required": [
+        "passwordCurrent",
+        "password",
+        "passwordReply"
+      ],
+      "type": "object",
+      "properties": {
+        "passwordCurrent": {
+          "title": "Passwordcurrent",
+          "type": "string",
+          "minLength": 1
+        },
+        "password": {
+          "title": "Пароль",
+          "type": "string",
+          "maxLength": 128,
+          "minLength": 1
+        },
+        "passwordReply": {
+          "title": "Passwordreply",
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "PaymentSettings": {
+      "type": "object",
+      "properties": {
+        "payment_methods": {
+          "title": "Способ оплаты",
+          "type": "string",
+          "enum": [
+            1,
+            2
+          ]
+        },
+        "shipping_methods": {
+          "title": "Способ доставки",
+          "type": "string",
+          "enum": [
+            1,
+            2
+          ]
+        },
+        "order_status": {
+          "title": "Статус заказа",
+          "type": "string",
+          "enum": [
+            1,
+            2,
+            3
+          ]
+        },
+        "page_size": {
+          "title": "Количество товара на странице",
+          "type": "integer",
+          "maximum": 2147483647,
+          "minimum": 0
+        },
+        "express": {
+          "title": "Стоимость эксперсс-доставки",
+          "type": "string",
+          "format": "decimal"
+        },
+        "standard": {
+          "title": "Стоимость обычной доставки",
+          "type": "string",
+          "format": "decimal"
+        },
+        "amount_free": {
+          "title": "Минимальная стоимость бесплатной доставки",
+          "type": "string",
+          "format": "decimal"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+{% block title %}
+Книги
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid p-0">
+    <div class="row col-12 m-0">
+        <div class="form-login col-12 d-flex justify-content-between align-items-center">
+            <div>
+                <p>Каталог книг</p>
+            </div>
+            <div>
+                <p><a href="/">Главная</a> / Каталог книг</p>
+            </div>
+        </div>
+    </div>
+    <div class="row card-book">
+        <div class="left-hand-side card col-3">
+            <div class="card-body">
+                <h5 class="card-title">Фильтр</h5>
+                <form class="form" action="/book" @submit.prevent="getBooks(1)">
+                    {% csrf_token %}
+                    <div class="form-group">
+<!--                        <label for="name">По автору</label>-->
+                        <input class="form-control"
+                               id="name"
+                               name="name"
+                               type="text"
+                               v-model="filter.name"
+                               placeholder="Введите автора">
+                    </div>
+                    <div class="form-group pt-4">
+<!--                        <label for="title">По названию книги</label>-->
+                        <input class="form-control"
+                               id="title"
+                               name="title"
+                               type="text"
+                               v-model="filter.title"
+                               placeholder="Введите название книги">
+                    </div>
+                    <div class="form-group pt-4">
+<!--                        <label for="title">По названию книги</label>-->
+                        <input class="form-control"
+                               id="genre"
+                               name="genre"
+                               type="text"
+                               v-model="filter.genre"
+                               placeholder="Введите жанр книги">
+                    </div>
+                    <div class="form-group pb-4 pt-4">
+                        <div class="buttons">
+                            <button type="submit"
+                                    class="btn btn-square btn-primary btn-narrow">
+                                Применить
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="right-hand-side row col-9 justify-content-center">
+            <div class="d-flex py-3">
+                <div class="sort-title">
+                    Сортировать по:
+                </div>
+
+                <div class="sort-variants d-flex justify-content-center">
+                    <div v-for="sort in sortRules"
+                         :key="sort.id"
+                         :id="sort.id"
+                         class="Sort-sortBy"
+                         :class="[
+                                    selectedSort && sort.id === selectedSort.id
+                                      ? `Sort-sortBy_${selectedSort.selected}`
+                                      : null
+                                   ]"
+                         @click="setSort(sort.id)">
+                        ${ sort.title }$
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="row">
+                        <div v-for="card in bookCards" class="col-4 mb-4">
+                            <div class="card align-self-stretch h-100">
+                                <a :href="card.href">
+                                    <img :src="card.images[0]" :alt="card.title" class="card-img-top" style="height: 300px;"/>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a :href="card.href">${card.title_short}$</a>
+                                    </h5>
+                                    <p>
+                                        <span>${ card.description_short }$</span>
+                                    </p>
+                                    <div v-for="author in card.authors" class="Card-category">
+                                        <strong>${ author.full_name }$</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Pagination">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item" :class="{ 'disabled': currentPage === 1 }">
+                            <a class="page-link" href="#" @click.prevent="getBooks(1)">
+                                <img src="/static/frontend/assets/img/icons/prevPagination.svg"
+                                     alt="prevPagination.svg"/>
+                            </a>
+                        </li>
+
+                        <li v-if="currentPage > 3" class="page-item disabled">
+                            <span class="page-link">...</span>
+                        </li>
+
+                        <li v-for="i in Math.min(5, lastPage)" :key="i" class="page-item">
+                            <a class="page-link"
+                               :class="{ 'Pagination-element_current': i === currentPage }"
+                               @click.prevent="getBooks(i)"
+                               href="#">
+                                ${i}$
+                            </a>
+                        </li>
+
+                        <li v-if="currentPage < lastPage - 2" class="page-item disabled">
+                            <span class="page-link">...</span>
+                        </li>
+
+                        <li class="page-item" :class="{ 'disabled': currentPage === lastPage }">
+                            <a class="page-link" href="#" @click.prevent="getBooks(lastPage)">
+                                <img src="/static/frontend/assets/img/icons/nextPagination.svg"
+                                     alt="nextPagination.svg"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block mixins %}
+<script src="{% static 'frontend/assets/js/catalog.js' %}"></script>
+{% endblock %}

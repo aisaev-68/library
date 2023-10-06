@@ -1,0 +1,130 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+{% block title %}
+Карточка книги
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row col-12 m-0">
+        <div class="form-login col-12 d-flex justify-content-between align-items-center">
+            <div>
+                <p>Карточка книги</p>
+            </div>
+            <div>
+                <p><a href="/">Главная</a> / Карточка книги</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid book-detail">
+        <div class="row">
+            <div class="col-md-3 px-5">
+                <img :src="book.image" :alt="photoAlt" class="img-fluid" style="width: 30vw;">
+            </div>
+            <div class="col-md-9">
+                <div class="bookCard-desc">
+                    <div class="bookCard-header">
+                        <h2 class="bookCard-title">${book.title}$</h2>
+                    </div>
+                    <div class="bookCard-info">
+                        ${ book.description_short }$
+                    </div>
+                    <p class="pt-2">Автор(ы):</p>
+                    <div v-for="author in book.authors" class="bookCard-info">
+                        ${ author }$
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="description-tab" data-bs-toggle="tab"
+                        data-bs-target="#description"
+                        type="button" role="tab" aria-controls="description" aria-selected="true">
+                    <span>Описание книги</span>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="reviews-tab" data-bs-toggle="tab"
+                        data-bs-target="#reviews" type="button"
+                        role="tab" aria-controls="reviews" aria-selected="false">
+                    <span>Отзывы (${ book.reviews ? book.reviews.length : 0 }$)</span>
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="description" role="tabpanel"
+                 aria-labelledby="description-tab">
+                <div class="px-5 py-2" v-html="book.description"></div>
+            </div>
+            <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                <header class="Section-header">
+                    <h6 class="Section-title px-2 py-2">${ book.reviews ? (book.reviews.length || 0) : 0 }$ Отзывов</h6>
+                </header>
+                <div class="Comments">
+                    <div v-for="review in book.reviews" class="Comment">
+                        <div class="Comment-column Comment-column_pict">
+                            <div class="Comment-avatar"></div>
+                        </div>
+                        <div class="Comment-column">
+                            <header class="Comment-header py-2">
+                                <div class="" style="padding-left: 10px; padding-right: 10px;">
+                                    <strong class="Comment-title">Автор: ${ review.user }$</strong>
+                                    <span class="Comment-date"
+                                          style="padding-left: 10px;">Дата: ${ review.date }$</span><br>
+                                    <span class="Comment-date">Оценка: ${ review.rate }$</span><br>
+                                </div>
+                            </header>
+                            <div class="comment-content px-5">${ review.text }$</div>
+                        </div>
+                    </div>
+                </div>
+                {% if user.is_authenticated %}
+                <header class="Section-header Section-header_book m-3">
+                    <h5 class="Section-title">Добавление отзыва</h5>
+                </header>
+                <div class="Tabs-addComment">
+                    <form class="form" @submit.prevent="submitReview">
+                        <div class="form-group">
+                            <textarea class="form-control" name="review" id="review" placeholder="Отзыв"
+                                      v-model="review.text"></textarea>
+                        </div>
+                        <div class="form-row d-flex py-2">
+                            <div class="form-group col-md-1 align-self-center">
+                                Оценка:
+                            </div>
+                            <div class="form-group col-md-1">
+                                <select name="rate" id="rate" class="form-control" v-model="review.rate">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-secondary my-2" type="submit">Добавить отзыв</button>
+                        </div>
+                    </form>
+
+                </div>
+                {% else %}
+                <div class="form-group pt-3 pb-5">
+                    <a class="text-primary" href="{% url 'login' %}">Авторизуйтесь, чтобы оставить отзыв</a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+{% endblock %}
+
+{% block mixins %}
+<!--<script>var pk = {{pk}}</script>-->
+<script src="{% static 'frontend/assets/js/book-detail.js' %}"></script>
+{% endblock %}

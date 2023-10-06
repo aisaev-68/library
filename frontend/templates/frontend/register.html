@@ -1,0 +1,47 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+
+{% block title %}
+Регистрация
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row col-12 m-0">
+        <div class="menu-register col-12 d-flex justify-content-between align-items-center">
+            <div>
+                <p>Регистрация пользователя</p>
+            </div>
+            <div>
+                <p><a href="/">Главная</a> / Регистрация</p>
+            </div>
+        </div>
+    </div>
+    <div class="raw d-flex justify-content-center">
+        {% if messages %}
+        <div class="alert alert-{{ message.tags }}" style="color: #2fa225; text-align: center;">
+            {{ message }}
+        </div>
+        {% endif %}
+        <form class="pt-5" method="POST" enctype="multipart/form-data"
+              style="display: flex; flex-direction: column; align-items: center;">
+            {% csrf_token %}
+            {% for field in form %}
+            <div class="form-group form-group-register">
+                <p class="form-field form-field-register">
+                    {{ field }}
+                </p>
+            </div>
+            {% endfor %}
+            <div class="form-group pb-5">
+                <button class="btn btn-success" type="submit" data-toggle="button" aria-pressed="false"
+                        autocomplete="off">
+                    Зарегистрировать
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

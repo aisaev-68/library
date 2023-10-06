@@ -1,0 +1,3476 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1541,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "HGc5AwAAQBAJ",
+      "etag": "cPvuqPBgkBU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HGc5AwAAQBAJ",
+      "volumeInfo": {
+        "title": "Подготовка к контрольным диктантам по русскому языку. 4 класс",
+        "authors": [
+          "Ольга Узорова",
+          "Елена Нефёдова"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2014-03-31",
+        "description": "Комплект книг («Подготовка к контрольным диктантам по русскому языку», «Контрольные диктанты по русскому языку») станет незаменимым помощником ученику четвёртого класса, желающему качественно отработать все орфограммы, изучаемые на уроках русского языка. К каждой орфограмме подобраны специальные диктанты, помогающие ребёнку надёжно закрепить знания по данной теме.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785457566842"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5457566846"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 194,
+        "printType": "BOOK",
+        "categories": [
+          "Учебные пособия"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.4.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=HGc5AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=HGc5AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=HGc5AwAAQBAJ&pg=PA179&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=HGc5AwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=HGc5AwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.78,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.78,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=HGc5AwAAQBAJ&rdid=book-HGc5AwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 780000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 780000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BA_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-sample-pdf.acsm?id=HGc5AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=HGc5AwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Ольга Узорова, Елена Нефёдова. Диктант 11 (После)обеда \u003cb\u003eя\u003c/b\u003e х(\u003cb\u003eа\u003c/b\u003e,о)р(\u003cb\u003eо,а\u003c/b\u003e)шо (вы) сп(\u003cb\u003eо,а\u003c/b\u003e)лся и ноч(ь,ъ)ю бодрство в(\u003cb\u003eо,а\u003c/b\u003e)л. \u003cb\u003eЯ\u003c/b\u003e (у)стро(\u003cb\u003eе\u003c/b\u003e,\u003cb\u003eя,и\u003c/b\u003e)лся (за)ст(\u003cb\u003eа\u003c/b\u003e,о)лом и (пере) читыв(\u003cb\u003eо,а\u003c/b\u003e)л интерес(т)н(\u003cb\u003eо,а\u003c/b\u003e,у)ю книгу. М(\u003cb\u003eа\u003c/b\u003e,о)\u003cb\u003eя\u003c/b\u003e с(\u003cb\u003eа\u003c/b\u003e,о)бака (при)стро(\u003cb\u003eе\u003c/b\u003e,и,\u003cb\u003eя\u003c/b\u003e)&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "T1ONDwAAQBAJ",
+      "etag": "DrnlJKRDqHA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/T1ONDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Весь Горький",
+        "authors": [
+          "Максим Горький"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2020-06-07",
+        "description": "В сборник «Весь Горький» вошли произведение русского прозаика и драматурга, одного из самых известных в мире русских писателей и мыслителей М. Горького, такие как: «Отшельник», «Ошибка», «Пастух», «Паук», поэма в прозе «Двадцать шесть и одна», поэмы в прозе «Песня о соколе», «Песня о буревестнике», повести «Городок Окуров», «Детство», «В людях», цикл рассказов «По Руси», рассказ «Макар Чудра», «Челкаш», «Старухи Изергиль», роман «Жизнь Клима Самгина» и другие. В книгу вошли: - \"9-е января\" - \"А. Н. Шмит\" - \"А. П. Чехов\" - \"А.А. Блок\" - \"Анекдот\" - \"Бабушка Акулина\" - \"Барышня и дурак\" - \"Болесь\" - \"Букоемов, Карп Иванович\" - \"Бывшие люди\" - \"Бык\" - \"В людях\" - \"В сочельник\" - \"В степи\" - \"В ущелье\" - \"Ванька Мазин\" - \"Варвары\" - \"Варенька Олесова\" - \"Васса Железнова\" - \"Васька Красный\" - \"Вездесущее\" - \"Весельчак\" - \"Вечер у Панашкина\" - \"Вечер у Сухомяткина\" - \"Вечер у Шамова\" - \"Вода и ее значение в жизни человека\" - \"Враги\" - \"Встреча\" - \"Встряска\" - \"Герой\" - \"Голубая жизнь\" - \"Горемыка Павел\" - \"Городок\" - \"Городок Окуров\" - \"Грустная история\" - \"Губин\" - \"Дачники\" - \"Двадцать шесть и одна\" - \"Две души\" - \"Девушка и смерть\" - \"Дед Архип и Ленька\" - \"Дело Артамоновых\" - \"Дело с застёжками\" - \"Дети\" - \"Дети солнца\" - \"Дипломатия\" - \"Дора\" - \"Достигаев и другие\" - \"Дружки\" - \"Егор Булычов и другие\" - \"Емельян Пиляй\" - \"Ералаш\" - \"Еще о черте\" - \"Жалобы\" - \"Женщина\" - \"Женщина с голубыми глазами\" - \"Жизнь Клима Самгина\" - \"Жизнь ненужного человека\" - \"Жрец морали\" - \"За бортом\" - \"Зазубрина\" - \"Злодеи\" - \"Знахарка\" - \"Зрители\" - \"И еще о черте\" - \"Идиллия\" - \"Извозчик\" - \"Исключительный факт\" - \"Исповедь\" - \"Испытатели\" - \"Каин и Артем\" - \"Как меня отбрили…\" - \"Как поймали Семагу\" - \"Как сложили песню\" - \"Как я учился\" - \"Калинин\" - \"Карамора\" - \"Кирилка\" - \"Кладбище\" - \"Клоун\" - \"Книга\" - \"Колокол\" - \"Коновалов\" - \"Кража\" - \"Красота\" - \"Крымские эскизы\" - \"Лев Толстой\" - \"Легкий человек\" - \"Ледоход\" - \"Лето\" - \"Ма-аленькая\" - \"Макар Чудра\" - \"Мальва\" - \"Мамаша Кемских\" - \"Мать\" - \"Мать 2018\" - \"Месть. Параллели\" - \"Мещане\" - \"Миша\" - \"Мой спутник\" - \"Мои университеты. Детство\" - \"Монархист\" - \"Мордовка\" - \"Мудрец\" - \"Музыка\" - \"Н .С. Лесков\" - \"Н. А. Бугров\" - \"На базаре\" - \"На дне\" - \"На пароходе\" - \"На плотах\" - \"На соли\" - \"На Чангуле\" - \"Навождение\" - \"Несвоевременные мысли\" - \"Несколько дней в роли редактора провинциальной газеты\" - \"Несколько испорченных минут\" - \"Несогласный\" - \"Неудавшийся писатель\" - \"Нилушка\" - \"Нищенка\" - \"О беспокойной книге\" - \"О войне и революции\" - \"О евреях \" - \"О женщине\" - \"О маленькой фее и молодом чабане\" - \"О мальчике и девочке, которые не замерзли\" - \"О первой любви\" - \"О писателе, который зазнался\" - \"О тараканах\" - \"О том, как я учился писать\" - \"О черте\" - \"О чиже, который лгал, и о дятле - любителе истины\" - \"Об одном поэте\" - \"Один из королей республики\" - \"Однажды осенью\" - \"Озорник\" - \"Орел\" - \"Открытие\" - \"Отшельник\" - \"Ошибка\" - \"Пастух\" - \"Паук\" - \"Песня о Буревестнике\" - \"Песня о слепых\" - \"Песня о Соколе\" - \"Петербургские типы\" - \"По пути на дно\" - \"Погром\" - \"Пожар\" - \"Пожары\" - \"Покойник\" - \"Последние\" - \"Последний день\" - \"Прекрасная Франция\" - \"Преступники\" - \"Пропагандист\" - \"Проходимец\" - \"Разрушение личности\" - \"Рассказ о безответной любви\" - \"Рассказ о герое\" - \"Рассказ о необыкновенном\" - \"Рассказ об одном романе\" - \"Рассказ Филиппа Васильевича\" - \"Рассказы о героях\" - \"Репетиция\" - \"Рождение человека\" - \"Романтик\" - \"Русский царь\" - \"Свободные дни\" - \"Скуки ради\" - \"Сомов и другие\" - \"Старик\" - \"Старуха Изергиль\" - \"Степан Разин\" - \"Сторож\" - \"Страсти-мордасти\" - \"Супруги Орловы\" - \"Тимка\" - \"Товарищи\" - \"Тоска\" - \"Три дня\" - \"Тюрьма\" - \"Убежал\" - \"Учитель чистописания\" - \"Федор Дядин\" - \"Фома Гордеев\" - \"Хан и его сын\" - \"Херсонес Таврический\" - \"Хозяева жизни\" - \"Челкаш\" - \"Читатель\" - \"Чужие люди\" - \"Шабры\" - \"Экзекуция\" - \"Яков Богомолов\" - \"Ярмарка в Голтве\"",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2200000093011"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=T1ONDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=T1ONDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=T1ONDwAAQBAJ&pg=PT10061&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=T1ONDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=T1ONDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.39,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.39,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=T1ONDwAAQBAJ&rdid=book-T1ONDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 390000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 390000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%92%D0%B5%D1%81%D1%8C_%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%B8%D0%B9-sample-epub.acsm?id=T1ONDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%92%D0%B5%D1%81%D1%8C_%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%B8%D0%B9-sample-pdf.acsm?id=T1ONDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=T1ONDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... а с о р е н н о е р а 3 н ы м хл а м о м и за р о с ш ее бурь \u003cb\u003eя\u003c/b\u003e н о м д в o p o в o e М e С Т О .в гл у б и н е е Г О —в ы с о к и й к и р п и ч н ы й б р а н д м \u003cb\u003eа у е\u003c/b\u003e р Он за к р ы в а ет н е б о О.к о л о н е г о к-y с т ы буз и н ы На п&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YoT9AgAAQBAJ",
+      "etag": "0EeyhCk+kkg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YoT9AgAAQBAJ",
+      "volumeInfo": {
+        "title": "Микроэлементы и микроудобрения",
+        "authors": [
+          "Михаил Каталымов"
+        ],
+        "publisher": "Рипол Классик",
+        "publishedDate": "2013-04-23",
+        "description": "В книге изложены основы применения микроудобрений в сельском хозяйстве. Рассматривается применение борных, медных, марганцевых, молибденовых, цинковых, кобальтовых, йодных и ванадиевых удобрений. Специальный раздел посвящен производству и применению микроудобрений в зарубежных странах. Монография снабжена подробной библиографией.Книга рассчитана на агрохимиков, агрономов, работников научно-исследовательских учреждений, преподавателей и студентов сельскохозяйственных высших и средних учебных заведений.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785458386913"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5458386914"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 338,
+        "printType": "BOOK",
+        "categories": [
+          "Технологии и инженерия"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YoT9AgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YoT9AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=YoT9AgAAQBAJ&pg=PA310&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=YoT9AgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=YoT9AgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.49,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.49,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=YoT9AgAAQBAJ&rdid=book-YoT9AgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2490000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2490000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D0%B8_%D0%BC%D0%B8%D0%BA%D1%80%D0%BE-sample-pdf.acsm?id=YoT9AgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YoT9AgAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eе Я\u003c/b\u003e. В., Верховой торф и зола как заменители борных удобрений, Пермь, 1942. П \u003cb\u003eе\u003c/b\u003e й в \u003cb\u003eе Я\u003c/b\u003e. В., в кн. «Микроэлементы в ... \u003cb\u003eа\u003c/b\u003e и о в \u003cb\u003eа\u003c/b\u003e Н, Н., Почвоведение, На 11, 3 (1953). П \u003cb\u003eе\u003c/b\u003e й в \u003cb\u003eе Я\u003c/b\u003e. В., И в \u003cb\u003eа\u003c/b\u003e н о в \u003cb\u003eа\u003c/b\u003e Н. Н., в кн. «Микроэлементы в сельском&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8_ViDwAAQBAJ",
+      "etag": "TfKlvdgo9ZU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8_ViDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Танец над бездной",
+        "subtitle": "Академия магических искусств. Книга 17",
+        "authors": [
+          "Элла Рэйн"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-07-03",
+        "description": "Детективное агентство «Мы бодрствуем всегда» продолжая расследования, неожиданно оказывается втянутым в операцию «Танец над бездной», а причиной стала помолвка Карла Барнауса и Сабрины Крони. Видана и ее друзья спутали планы старого лорда Корвена, главы криминального рода, раскрыли серьезное преступление, совершенное двадцать лет назад. Все эти шаги приблизили битву Серой леди и Виданы, в которой может выжить только одна из них.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000056815"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8_ViDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8_ViDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=8_ViDwAAQBAJ&pg=PT544&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=8_ViDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8_ViDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1.49,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 1.49,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=8_ViDwAAQBAJ&rdid=book-8_ViDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1490000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 1490000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D0%B0%D0%BD%D0%B5%D1%86_%D0%BD%D0%B0%D0%B4_%D0%B1%D0%B5%D0%B7%D0%B4%D0%BD%D0%BE%D0%B9-sample-epub.acsm?id=8_ViDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D0%B0%D0%BD%D0%B5%D1%86_%D0%BD%D0%B0%D0%B4_%D0%B1%D0%B5%D0%B7%D0%B4%D0%BD%D0%BE%D0%B9-sample-pdf.acsm?id=8_ViDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8_ViDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eЯ\u003c/b\u003e Д И Ш Ь \u003cb\u003ee А\u003c/b\u003e в о т—и н \u003cb\u003eе\u003c/b\u003e п р \u003cb\u003eа\u003c/b\u003e в д \u003cb\u003eа я\u003c/b\u003e к \u003cb\u003eа\u003c/b\u003e ж д ы й д \u003cb\u003eе\u003c/b\u003e н ь 3 a X о ж у с Юд \u003cb\u003eа\u003c/b\u003e у тр о м и \u003cb\u003eе\u003c/b\u003e ч \u003cb\u003eе\u003c/b\u003e р о м y ч то бы о з д о р о в \u003cb\u003eа\u003c/b\u003e т ь с \u003cb\u003eя и\u003c/b\u003e о о б щ \u003cb\u003eа\u003c/b\u003e т ь с \u003cb\u003eя\u003c/b\u003e с Б р у н о и р о л и н о й н о В ы в это в р \u003cb\u003eе\u003c/b\u003e м \u003cb\u003eя\u003c/b\u003e с у т с т в уете ул ы б ну \u003cb\u003eя а\u003c/b\u003e с&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "xkNLDwAAQBAJ",
+      "etag": "Atowrr31oGc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/xkNLDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Моя исповедь",
+        "authors": [
+          "Николай Карамзин"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-02-09",
+        "description": "«Моя исповедь» - произведение крупнейшего русского литератора эпохи сентиментализма, реформатора русского языка. Н. М. Карамзина (1766 – 1826).*** Статья с подзаголовком «Письмо к издателю журнала» написана и впервые опубликована в «Вестнике Европы» в 1802 году. Ее заголовок - отклик на знаменитую «Исповедь» Ж.-Ж. Руссо. Это, по сути, повесть, созданная в форме автобиографического письма. В ней показан человек, лишенный всякой веры в истину и науку, для которого жизнь — «китайские тени» и поэтому представляет только авантюрный интерес. Ветреник, безбожник, обманщик чужих жен, остроумный карикатурист, который в Риме, «целуя туфель папы, укусил ему ногу и заставил бедного старика закричать изо всей силы». Он как философ равнодушно переносит житейские испытания и, оглядываясь на прошлое, готов, если бы пришлось, опять также прожить свою жизнь. Перу Карамзина принадлежат и такие произведения: «Нечто о науках, искусствах и просвещении», «О Богдановиче и его сочинениях», «О любви к отечеству и народной гордости», «О случаях и характерах в российской истории, которые могут быть предметом художеств».",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2200000038395"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 9,
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=xkNLDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=xkNLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=xkNLDwAAQBAJ&pg=PP2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=xkNLDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xkNLDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.03,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.03,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=xkNLDwAAQBAJ&rdid=book-xkNLDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 30000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 30000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9C%D0%BE%D1%8F_%D0%B8%D1%81%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D1%8C-sample-epub.acsm?id=xkNLDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9C%D0%BE%D1%8F_%D0%B8%D1%81%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D1%8C-sample-pdf.acsm?id=xkNLDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=xkNLDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eе\u003c/b\u003e д \u003cb\u003eе\u003c/b\u003e н и \u003cb\u003eе\u003c/b\u003e к р у п н \u003cb\u003eе\u003c/b\u003e й ш \u003cb\u003eе\u003c/b\u003e г о р у c с к о г о л и т \u003cb\u003eе\u003c/b\u003e р \u003cb\u003eа\u003c/b\u003e т о р \u003cb\u003eа\u003c/b\u003e э п о x и с \u003cb\u003eе\u003c/b\u003e н т и м \u003cb\u003eе\u003c/b\u003e н т \u003cb\u003eа\u003c/b\u003e л и з м \u003cb\u003eа\u003c/b\u003e р \u003cb\u003eе\u003c/b\u003e ф о р м \u003cb\u003eа\u003c/b\u003e т о р \u003cb\u003eа\u003c/b\u003e p у c с к о г о \u003cb\u003eя\u003c/b\u003e з ы к \u003cb\u003eа\u003c/b\u003e Н М К \u003cb\u003eа\u003c/b\u003e р \u003cb\u003eа\u003c/b\u003e м з и н \u003cb\u003eа\u003c/b\u003e (1766—1826). С т \u003cb\u003eа\u003c/b\u003e т ь \u003cb\u003eя\u003c/b\u003e с П О Д 3 \u003cb\u003eа\u003c/b\u003e Г О Л О В К О М П«и&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "l3nsBQAAQBAJ",
+      "etag": "E36oK/Z9VFI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/l3nsBQAAQBAJ",
+      "volumeInfo": {
+        "title": "Иоганн Себастиан Бах",
+        "authors": [
+          "Фауст Вольфрум"
+        ],
+        "publisher": "Directmedia",
+        "publishedDate": "2013-03-13",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785998978470"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5998978471"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "categories": [
+          "Биография"
+        ],
+        "pageCount": 310,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=l3nsBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=l3nsBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=l3nsBQAAQBAJ&pg=PA82&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=l3nsBQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=l3nsBQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.84,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.84,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=l3nsBQAAQBAJ&rdid=book-l3nsBQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 840000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 840000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%98%D0%BE%D0%B3%D0%B0%D0%BD%D0%BD_%D0%A1%D0%B5%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%B0%D0%BD_%D0%91%D0%B0%D1%85-sample-pdf.acsm?id=l3nsBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=l3nsBQAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eа\u003c/b\u003e с маѣ ее \u003cb\u003eа\u003c/b\u003e съ ь. га н \u003cb\u003eа\u003c/b\u003e агача \u003cb\u003eа\u003c/b\u003e — ква вза на \u003cb\u003eа\u003c/b\u003e л л \u003cb\u003eа\u003c/b\u003e в вв—вненнее? врур.\u003cb\u003eя\u003c/b\u003e? г) о р —, о П \u003cb\u003eЕ\u003c/b\u003e но — —ен- - -— \u003cb\u003eа\u003c/b\u003e да \u003cb\u003eе\u003c/b\u003e. еа- ла аи. в гав в вт ав-— т вв \u003cb\u003eа\u003c/b\u003e ва \u003cb\u003eа а я а\u003c/b\u003e втиала Ееънннана ан , в н \u003cb\u003eа\u003c/b\u003e в въ \u003cb\u003eа\u003c/b\u003e авт г. в к i ава в \u003cb\u003eа\u003c/b\u003e вн \u003cb\u003eа я\u003c/b\u003e ав- бько се и о&nbsp;..."
+      }
+    },
+
+    {
+      "kind": "books#volume",
+      "id": "CjmgDwAAQBAJ",
+      "etag": "IkUWaVcROqw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CjmgDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Специальная педагогика",
+        "authors": [
+          "Елена Логинова",
+          "Ольга Елецкая",
+          "Марина Матвеева"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2019-09-20",
+        "description": "Учебник адресован студентам, обучающимся по направлению подготовки 44.03.03 «Специальное (дефектологическое) образование» (уровень бакалавриат) при изучении дисциплины «Специальная педагогика».Рекомендуется для использования в качестве дополнительного пособия магистрантам, обучающимся по направлению подготовки 44.04.03 «Специальное (дефектологическое) образование» (уровень магистратуры), осваивающим дисциплины «Современные проблемы науки и специального дефектологического образования», «Нормативно-правовое обеспечение специального образования», «Развитие специального образования в России и за рубежом: традиции и современность», «Сравнительная специальная педагогика».Содержание учебника включает теоретический материал для усвоения разделов: «Теория и история специальной педагогики», «Специальное образование лиц с ограниченными возможностями здоровья», «Педагогические системы специального образования», планы практических занятий, задания для самостоятельной работы студентов, тестовые задания, вопросы к экзамену, списки основной и дополнительной литературы по главам и т.д.Учебник может быть полезен логопедам, психологам, дефектологам, педагогам, слушателям курсов повышения квалификации педагогических работников, работающим с лицами с ограниченными возможностями здоровья.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785041788094"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "504178809X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Психология"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=CjmgDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=CjmgDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=CjmgDwAAQBAJ&pg=PA20&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=CjmgDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CjmgDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 5.25,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 4.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=CjmgDwAAQBAJ&rdid=book-CjmgDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 5250000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 4990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8-sample-pdf.acsm?id=CjmgDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=CjmgDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... е ы н ь л \u003cb\u003eа у е\u003c/b\u003e ы в о п п у р г - о ) е ы в о п ы н ь , \u003cb\u003eя и\u003c/b\u003e н а в Э ( , ы н и р о и и с р н а з е ы н р о ф е ы б а р й о к ы д л а т н о р ф ( о х о п д и н ь п у р ( И е ы у к ь л н с с е а к в о т о г д о ы в и т а т ь л \u003cb\u003eя\u003c/b\u003e а н б у л&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0rZxBgAAQBAJ",
+      "etag": "LaXuM9XBgXE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0rZxBgAAQBAJ",
+      "volumeInfo": {
+        "title": "Сборник железнодорожных узаконений и распоряжений Правительства Общий Устав Российских железных дорог",
+        "authors": [
+          "Юрист Логинов"
+        ],
+        "publisher": "Directmedia",
+        "publishedDate": "2013-03-15",
+        "description": "По официальному изданию 1906 года, измененный и дополненный изданными по 1-е февраля 1908 года постановлениями и распоряжениями (с 9-ю приложениями)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785446091591"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5446091590"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "categories": [
+          "Юридическая литература"
+        ],
+        "pageCount": 1210,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0rZxBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0rZxBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=0rZxBgAAQBAJ&pg=RA1-PA818&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=0rZxBgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=0rZxBgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.74,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.74,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=0rZxBgAAQBAJ&rdid=book-0rZxBgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2740000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2740000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B6-sample-pdf.acsm?id=0rZxBgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0rZxBgAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eе\u003c/b\u003e. о \u003cb\u003eе\u003c/b\u003e о \u003cb\u003eе\u003c/b\u003e . . Граев9. . . . . . . . . . . . . . . . . . . . . . . . . Домброва-Горная 1)............ Дорогускъ ... \u003cb\u003eа\u003c/b\u003e -. .. . . . в I *) Станціи: Липецкъ, Крыжополь и Прникуровъ и крыты для нагрузки спиной, нргдна натаемлхъ, нъ г&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0-qKDwAAQBAJ",
+      "etag": "bakbNH1QE+M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0-qKDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Лучшее из Марка Твена",
+        "authors": [
+          "Марк Твен"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2019-02-26",
+        "description": "Наследие Марка Твена поражает богатством жанров. От афоризма в одну-две фразы или анекдота — до объемной автобиографии, от газетного репортажа — до больших путевых заметок, от веселой байки — до романа и философского диалога. В сборник «Лучшее из Марка Твена» вошли такие произведения автора, как: «Благожелательный писатель», «Признательный пудель», «Благодарный супруг», «Янки при дворе короля Артура», «Принц и нищий», «Приключения Тома Сойера», «Приключения Гекльберри Финна», «Любовь Алонзо Фитц Кларенса и Розанны Этельтон», «Великая революция в Питкэрне», «Легенда о Загенфельде в Германии», «Похищение белого слона», «Затеряны в снегу».",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2200000092960"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "categories": [
+          "Биография"
+        ],
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0-qKDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0-qKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=0-qKDwAAQBAJ&pg=PT615&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=0-qKDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=0-qKDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.07,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.07,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=0-qKDwAAQBAJ&rdid=book-0-qKDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 70000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 70000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9B%D1%83%D1%87%D1%88%D0%B5%D0%B5_%D0%B8%D0%B7_%D0%9C%D0%B0%D1%80%D0%BA%D0%B0_%D0%A2%D0%B2%D0%B5%D0%BD%D0%B0-sample-epub.acsm?id=0-qKDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9B%D1%83%D1%87%D1%88%D0%B5%D0%B5_%D0%B8%D0%B7_%D0%9C%D0%B0%D1%80%D0%BA%D0%B0_%D0%A2%D0%B2%D0%B5%D0%BD%D0%B0-sample-pdf.acsm?id=0-qKDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0-qKDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... а \u003cb\u003eя\u003c/b\u003e б а т а л и \u003cb\u003eя\u003c/b\u003e - —К а к на к а 3 у е т с \u003cb\u003eя\u003c/b\u003e п р е с т у п л е н и е О т Г a 3 е Т Н а \u003cb\u003eЯ\u003c/b\u003e Вы д е р Ж т О Г О в р е м е н и фото графия, нуждающая с \u003cb\u003eя\u003c/b\u003e в ретуши: Р О К О В А \u003cb\u003eЯ\u003c/b\u003e С ТБ/ Ч К А В ч е р \u003cb\u003eа в е\u003c/b\u003e ч е р о м в б и л ь \u003cb\u003eя\u003c/b\u003e рд н о м за л е н&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "rRBSDwAAQBAJ",
+      "etag": "KI9sjURSGKA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/rRBSDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Откровение от Тициана",
+        "authors": [
+          "Тамара Алехина"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-03-19",
+        "description": "«Театр плюс вернисаж» — серия пьес для детей и юношества. Уникальность серии — в синергии двух видов искусства: изобразительного и театрального. Погружаясь в театральное действо, зритель знакомится с жизнью и творчеством известных мастеров. Пьесы серии различны по жанру: миф, притча, лирическая драма, сказка, комедия-фэнтези и др. «Откровение от Тициана» — одноактная историческая драма. В последние годы жизни Тициан занялся исправлением своих полотен, меняя замысел и усложняя цвет. Зачем он делал это? Почему его ученики пытались уничтожить новые картины? Пьеса приоткрывает завесу над тайной великого мастера Позднего Возрождения.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000054606"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Искусство"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=rRBSDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=rRBSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=rRBSDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=11&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=rRBSDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=rRBSDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=rRBSDwAAQBAJ&rdid=book-rRBSDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9E%D1%82%D0%BA%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BE%D1%82_%D0%A2%D0%B8%D1%86%D0%B8%D0%B0%D0%BD%D0%B0-sample-epub.acsm?id=rRBSDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9E%D1%82%D0%BA%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BE%D1%82_%D0%A2%D0%B8%D1%86%D0%B8%D0%B0%D0%BD%D0%B0-sample-pdf.acsm?id=rRBSDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=rRBSDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eа я\u003c/b\u003e с ь в т \u003cb\u003eе а\u003c/b\u003e тр \u003cb\u003eа\u003c/b\u003e л ь н о \u003cb\u003eе\u003c/b\u003e д \u003cb\u003eе\u003c/b\u003e й с т в о ,з р и те л ь 3 Н \u003cb\u003eа\u003c/b\u003e К О М И Т С \u003cb\u003eЯ\u003c/b\u003e с Ж И 3 Н Б НО И т в o p ч \u003cb\u003eе\u003c/b\u003e с т в о м и 3 в \u003cb\u003eе\u003c/b\u003e с т н ы х м \u003cb\u003eа\u003c/b\u003e с т \u003cb\u003eе\u003c/b\u003e р о в Пь \u003cb\u003eе\u003c/b\u003e с ы с \u003cb\u003eе\u003c/b\u003e р и и р \u003cb\u003eа\u003c/b\u003e з л и ч н ы п о ж \u003cb\u003eа\u003c/b\u003e н p у м и ф п р и т ч \u003cb\u003eа\u003c/b\u003e л и р и ч \u003cb\u003eе\u003c/b\u003e с к \u003cb\u003eа я\u003c/b\u003e д&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "dxlJDwAAQBAJ",
+      "etag": "V/aeYYmm5WQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dxlJDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Переломы",
+        "authors": [
+          "Франк Тилье"
+        ],
+        "publisher": "Азбука-Аттикус",
+        "publishedDate": "2018-01-26",
+        "description": "Как известно, ненависть порождает ненависть, насилие порождает насилие. Но кто бы мог предположить, что на почве давних событий в далеких краях возникнет такой клубок запутанных человеческих страстей и безумств, как в романе Франка Тилье «Переломы»! Алиса сознает, что с ней что-то не в порядке, в памяти то и дело возникают черные дыры. Лечение у психиатра Люка Грэхема, казалось бы, должно привести к выздоровлению. Однако вокруг молодой женщины множатся странные события. Например, как объяснить, что фотография ее сестры-близнеца, умершей десять лет назад, попадала в руки беженца, скрывающегося от властей. Как понять, почему ее собственный отец нападал на нее, а теперь утверждает, что пытался покончить с собой; откуда в ванной взялась окровавленная блузка; и наконец, причем тут совершенно неподвижный голый человек, найденный на автобусной остановке? Неужто это погружение в безумие?..",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785389143395"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5389143396"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 416,
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=dxlJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=dxlJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=dxlJDwAAQBAJ&pg=PT182&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=12&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=dxlJDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dxlJDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 7.37,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 7,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=dxlJDwAAQBAJ&rdid=book-dxlJDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 7370000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 7000000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9F%D0%B5%D1%80%D0%B5%D0%BB%D0%BE%D0%BC%D1%8B-sample-epub.acsm?id=dxlJDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9F%D0%B5%D1%80%D0%B5%D0%BB%D0%BE%D0%BC%D1%8B-sample-pdf.acsm?id=dxlJDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=dxlJDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Франк Тилье. в ы п р \u003cb\u003eя\u003c/b\u003e м л \u003cb\u003eя\u003c/b\u003e е т с \u003cb\u003eя и\u003c/b\u003e р е ш e т к е От x о л о д а у . К о л е н и в с е с y с т а в ы , г Горл о в О Г Н. e 3 а с м у т н о р а з л и ч \u003cb\u003eа е\u003c/b\u003e т Н b/ а р к и б о л ь щ и е К а М Н И Муч и те л ь е т а р а з г л \u003cb\u003eя\u003c/b\u003e д е т ь е г&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9AP4BQAAQBAJ",
+      "etag": "M4NfQ4urC1c",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9AP4BQAAQBAJ",
+      "volumeInfo": {
+        "title": "Описание военных действий на море в 37-38 гг. Мейдзи (в 1904-1905 гг.)",
+        "authors": [
+          "Александр Воскресенский"
+        ],
+        "publisher": "Directmedia",
+        "publishedDate": "2013-03-14",
+        "description": "Издано под редакцией Морского Генерального Штаба.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785446060061"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5446060067"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "categories": [
+          "История"
+        ],
+        "pageCount": 194,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9AP4BQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9AP4BQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=9AP4BQAAQBAJ&pg=PA186&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=13&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=9AP4BQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=9AP4BQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.21,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.21,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=9AP4BQAAQBAJ&rdid=book-9AP4BQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 210000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 210000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D1%85_%D0%B4%D0%B5%D0%B9%D1%81-sample-pdf.acsm?id=9AP4BQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9AP4BQAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Схема наступленія Зарміи 4едуе . \u003cb\u003eА\u003c/b\u003e”\u003cb\u003ee\u003c/b\u003e.2ду - } и , у 5 4; У г. х. \u003cb\u003eА\u003c/b\u003e? \u003cb\u003eе\u003c/b\u003e. за ---- -.» 5 5-- от-5- л;-сае, . - (2 Б Уing-сhепо-t 1 и 4де? „-- Д. „м т „ у т - за играла и 4 чу-1 л.-тая о 4 2 „-- ) . У. е!» А \u003cb\u003eя\u003c/b\u003e лѣ 4оо А п е г и л ал сло- зла 5&quot;?"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "DtxZDwAAQBAJ",
+      "etag": "Kjb2bDD3vAc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DtxZDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Сборник «Загадочная русская душа»",
+        "subtitle": "Мертвые души, Тарас Бульба, Братья Карамазовы, Идиот, Война и мир, Анна Каренина, Евгений Онегин, Капитанская дочка, Обломов, Отцы и дети, Герой нашего времени, Бесприданница, Господа Головлевы, Поединок, Мать, Темные аллеи",
+        "authors": [
+          "Лев Толстой",
+          "Фёдор Достоевский",
+          "Иван Тургенев",
+          "Александр Пушкин",
+          "Николай Гоголь"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2020-05-25",
+        "description": "Почему этот сборник назван «Загадочная русская душа»? Обратимся к Википедии: «Понятие появилось во второй половине ХIХ века благодаря философии произведений ведущих русских писателей, таких как Достоевский и Толстой. В их книгах, популярных и в Европе, главенствовало не эстетическое, а этическое начало, не развлекательные, а нравственные потребности. «Духовность» таких произведений перешла в «душевность» и привела к появлению за границей понятия «загадочная русская душа». Кроме Достоевского и Толстого, «руку» к этому приложили практически все писатели, ставшие классиками русской и мировой литературы. Более двадцати их романов, повестей, пьес и стихотворений вошли в сборник «Загадочная русская душа». Содержание: Николай Гоголь Мертвые души Тарас Бульба Федор Достоевский Братья Карамазовы Идиот Лев Толстой Война и мир Анна Каренина Александр Пушкин Евгений Онегин Капитанская дочка Бахчисарайский фонтан Татарская песня Иван Гончаров Обломов Иван Сергеевич Тургенев Отцы и дети Антон Чехов Рассказы Михаил Лермонтов Герой нашего времени Александр Островский Бесприданница Гроза Лица Михаил Салтыков-Щедрин Господа Головлевы Семейный суд По-родственному Семейные итоги Племяннушка Недозволенные семейные радости Выморочный Расчет Александр Куприн Поединок Максим Горький Мать Сергей Есенин Стихотворения Иван Бунин Темные аллеи",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2200000092670"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Русская классика"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DtxZDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DtxZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=DtxZDwAAQBAJ&pg=RA18-PR6&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=15&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=DtxZDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=DtxZDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.38,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.38,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=DtxZDwAAQBAJ&rdid=book-DtxZDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 380000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 380000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D0%B3%D0%B0%D0%B4%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D1%80%D1%83-sample-epub.acsm?id=DtxZDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D0%B3%D0%B0%D0%B4%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D1%80%D1%83-sample-pdf.acsm?id=DtxZDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DtxZDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eе\u003c/b\u003e x о ч у c о л г \u003cb\u003eа\u003c/b\u003e т ь д \u003cb\u003eе\u003c/b\u003e й с т в и те л ь н о с т ь л о в и л a и м \u003cb\u003eе\u003c/b\u003e н \u003cb\u003eя\u003c/b\u003e н \u003cb\u003eа\u003c/b\u003e к р Ю Ч О К в Э т и Ш \u003cb\u003ee\u003c/b\u003e с т ь м \u003cb\u003eе\u003c/b\u003e с \u003cb\u003eя\u003c/b\u003e ц \u003cb\u003eе\u003c/b\u003e в и д о т о го и н о г д \u003cb\u003eа\u003c/b\u003e у в л \u003cb\u003eе\u003c/b\u003e к \u003cb\u003eа\u003c/b\u003e л \u003cb\u003eа\u003c/b\u003e ч то \u003cb\u003eя\u003c/b\u003e за бы в \u003cb\u003eа\u003c/b\u003e л о м о \u003cb\u003eе\u003c/b\u003e м п р и го в о р \u003cb\u003eе\u003c/b\u003e и л и л у ч ш \u003cb\u003eе\u003c/b\u003e н \u003cb\u003eе\u003c/b\u003e x о тел&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hkBNDwAAQBAJ",
+      "etag": "EwUwBnZ6WQQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hkBNDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Гамлет Щигровского уезда",
+        "authors": [
+          "Иван Тургенев"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-02-20",
+        "description": "«Гамлет Щигровского уезда» — произведение великого русского писателя Ивана Тургенева. В своем творчестве он раскрывает тему русской интеллигенции и крестьянского быта, выступает мастером психологических портретов. Перу автора принадлежат и другие известные произведения, такие как «Ася», «Отцы и дети», «Дворянское гнездо», «Бирюк», «Накануне», «Муму», «Пожар на море», «Постоялый двор», «Часы», «Три портрета», «Странная история», «Свидание» и т. д. Иван Тургенев — выдающийся писатель ХIX века, член-корреспондент императорской Академии наук по разряду русского языка и словесности, автор философско-психологических поэм, рассказов, повестей и романов.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2200000076687"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Русская классика"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hkBNDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hkBNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=hkBNDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=16&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=hkBNDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hkBNDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.03,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.03,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=hkBNDwAAQBAJ&rdid=book-hkBNDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 30000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 30000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%93%D0%B0%D0%BC%D0%BB%D0%B5%D1%82_%D0%A9%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%83%D0%B5-sample-epub.acsm?id=hkBNDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%93%D0%B0%D0%BC%D0%BB%D0%B5%D1%82_%D0%A9%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%83%D0%B5-sample-pdf.acsm?id=hkBNDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hkBNDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eа е\u003c/b\u003e т т е м у рус с к о й И н т е л л и ге Н Ц И И и к р е с т ь \u003cb\u003eя\u003c/b\u003e н с К о г о бы та , в ы с т у п \u003cb\u003eа е\u003c/b\u003e т м а с т е р о м П С И Х О Л О Г И Ч e С К И Х п о р т р е то в П е р у а в т о р а п р и н а д л е ж а т и д р у г и е и з в е с т н ы&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "A-rOEAAAQBAJ",
+      "etag": "x5rrdpdtneU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/A-rOEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Гражданское право. Общая часть (практические и тестовые задания, кроссворды, ребусы) 2-е изд. Учебное пособие для вузов",
+        "authors": [
+          "Станислав Николюкин"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2023-08-02",
+        "description": "Учебное пособие состоит из 22 глав, каждая из которых снабжена контрольными вопросами, практическими и тестовыми заданиями. Имеются также кроссворды и ребусы. Материал учебного пособия направлен на формирование у обучающихся необходимых общекультурных и профессиональных компетенций. Подготовлено при информационной поддержке справочно-правовой системы «КонсультантПлюс». Соответствует актуальным требованиям Федерального государственного образовательного стандарта высшего образования. Для обучающихся в высших учебных заведениях по юридическим направлениям, преподавателей и всех интересующихся гражданским правом.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785045673150"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5045673157"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 305,
+        "printType": "BOOK",
+        "categories": [
+          "Юридическая литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=A-rOEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=A-rOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=A-rOEAAAQBAJ&pg=PA274&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=17&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=A-rOEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=A-rOEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 14.87,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 10.41,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=A-rOEAAAQBAJ&rdid=book-A-rOEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 14870000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 10410000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%93%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE_%D0%9E%D0%B1%D1%89-sample-pdf.acsm?id=A-rOEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=A-rOEAAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eЕ\u003c/b\u003e М \u003cb\u003eА\u003c/b\u003e К И П \u003cb\u003eЕ\u003c/b\u003e С ВУЧЫЦ Ы И П С О Т НЯ Ч СМИТЬБЮ ЭЙ К Н Р \u003cb\u003eА\u003c/b\u003e ВЫ ФН Г Ш \u003cb\u003eА\u003c/b\u003e В М Т Ю \u003cb\u003eЯ\u003c/b\u003e В \u003cb\u003eА\u003c/b\u003e У Н Ш Д ОФЙ У К Г \u003cb\u003eА\u003c/b\u003e РЕ Н И \u003cb\u003eЕ\u003c/b\u003e О Л Д Ы Х ГЙ КЕ \u003cb\u003eА\u003c/b\u003e К Ы НК П К О Ъ Н Х С Х З Ъ Ж Б Т И М С О ЫРЛ ЩЙ К Ж ЭЛ Ь В Г Ш Ф \u003cb\u003eО А\u003c/b\u003e ГВО Ш Ы \u003cb\u003eА\u003c/b\u003e Ц Ы У МИ КЕ Ы Г С Т \u003cb\u003eА\u003c/b\u003e В К&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HH08AwAAQBAJ",
+      "etag": "pyJv/Jj5v38",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HH08AwAAQBAJ",
+      "volumeInfo": {
+        "title": "30000 учебных примеров и заданий по русскому языку на все правила и орфограммы. 1 класс",
+        "authors": [
+          "Ольга Узорова",
+          "Елена Нефёдова"
+        ],
+        "publisher": "Litres",
+        "publishedDate": "2014-04-01",
+        "description": "Издание содержит 30 000 примеров и заданий на закрепление основных правил, предусмотренных программой по русскому языку для 1 класса.Весь материал пособия систематизирован по орфограммам. Для удобства использования в начале каждого раздела даются теоретические сведения. Это позволяет учащимся повторить правило и сразу же закрепить, выполнив ряд практических заданий. Путём регулярных упражнений школьники усвоят навыки грамотного письма и орфографические правила.Пособие можно использовать для коллективной и индивидуальной работы в классе, а также для работы дома.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785457567528"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5457567524"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 66,
+        "printType": "BOOK",
+        "categories": [
+          "Учебные пособия"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.6.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=HH08AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=HH08AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=HH08AwAAQBAJ&pg=PA9&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=18&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=HH08AwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=HH08AwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1.96,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 1.96,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=HH08AwAAQBAJ&rdid=book-HH08AwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1960000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 1960000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/30000_%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D1%85_%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%BE%D0%B2_%D0%B8-sample-pdf.acsm?id=HH08AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=HH08AwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eА\u003c/b\u003e ... Ю ... О ... \u003cb\u003eЯ\u003c/b\u003e ... Ю ... \u003cb\u003eЕ\u003c/b\u003e ... Ы У ... \u003cb\u003eЕ\u003c/b\u003e Ы ... О ... ИЭ ... \u003cb\u003eЯ Е\u003c/b\u003e ... \u003cb\u003eЯ\u003c/b\u003e Э ... \u003cb\u003eА\u003c/b\u003e ... У ... Ю ... \u003cb\u003eЕ Я\u003c/b\u003e Ё ИО ... У ... Э ... Ё ... Ы Ы ... Ё У Ё ... Э ... У ... О ... УИ ... Э Ы ... Ё ... ЮЫ ... Ё ... \u003cb\u003eЕ\u003c/b\u003e Ю ... \u003cb\u003eА\u003c/b\u003e ... О ... Э ... У Ы ... \u003cb\u003eЕ\u003c/b\u003e&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Xw5NDwAAQBAJ",
+      "etag": "Ap7j5O4QBi4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Xw5NDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Три правды",
+        "authors": [
+          "Надежда Тэффи"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-02-19",
+        "description": "«Три правды» — рассказ русской поэтессы, писательницы Надежды Тэффи(настоящее имя Надежда Александровна Лохвицкая, по мужу Бучинская; 1872–1952). В этом юмористическом рассказе дано три версии одного события — похода в ресторан, который закончился весьма непредсказуемо. Известность и популярность Надежде Тэффи принесли, прежде всего, юмористические и сатирические рассказы, поместившиеся в сборники «Юмористические рассказы», «И так стало», «Карусель», «Дым без огня», «Неживой зверь», «Городок», «Ведьма». Ее перу принадлежат также ряд стихотворений, переводы, роман «Авантюрный роман», мемуарная проза о З. Гиппиус, А. Коллонтай, А. Керенском, Г. Распутине, А. Аверченко и других современниках писательницы. В своих произведениях Надежда Тэффи пыталась создать портреты людей разных типов характера, уровня образования и сословия. Главное для Тэффи — подчеркнуть индивидуальность каждого человека. Читатель просто ощущает симпатию автора к своим персонажам, любовь к людям.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2200000078452"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Xw5NDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Xw5NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=Xw5NDwAAQBAJ&pg=PP3&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=19&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Xw5NDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Xw5NDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.03,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.03,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Xw5NDwAAQBAJ&rdid=book-Xw5NDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 30000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 30000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D1%80%D0%B8_%D0%BF%D1%80%D0%B0%D0%B2%D0%B4%D1%8B-sample-epub.acsm?id=Xw5NDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D1%80%D0%B8_%D0%BF%D1%80%D0%B0%D0%B2%D0%B4%D1%8B-sample-pdf.acsm?id=Xw5NDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Xw5NDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eя\u003c/b\u003e о б р а з о в а н и \u003cb\u003eя и\u003c/b\u003e р }e И \u003cb\u003eя\u003c/b\u003e Гл а в н о е Д Л \u003cb\u003eЯ\u003c/b\u003e Тэфф и - К Н у т ь и н д и в И Д у а л ь н о с т ь К a Ж Д О Г О К а Ч и т а т.е л ь п р о с т о О щ у щ \u003cb\u003eа е\u003c/b\u003e Т 1 ю а в т о р а к с в o и м п е р с о н а ж а м 3 л Ю Д \u003cb\u003eЯ\u003c/b\u003e М Леля Перепегова&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wY9NDwAAQBAJ",
+      "etag": "nJW0EwhrI0Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wY9NDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Тристрам Шенди",
+        "authors": [
+          "Лоренс Стерн"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-02-23",
+        "description": "«Золотой фонд мировой литературы» - коллекция электронных книг, включающая лучшие образцы мировой художественной литературы, представляет собой максимально исчерпывающий список самых читаемых книг мира. Каждое из произведений, изданных под обложкой этой серии, входит в один или сразу несколько списков лучших книг по разным версиям, которые не противопоставляются один другим, а гармонично объединяются, чтобы предоставить читателю наибольший выбор. «Тристрам Шенди» - юмористический роман известного английского писателя Лоренса Стерна (англ. Laurence Sterne, 1713-1768). *** В начале романа автор предупреждает читателя о нелинейной структуре произведения. Далее следует история главного героя, Тристрама Шенди, который рассказывает о своем взрослении, утверждая, что все Шенди немного чудаковаты… Другими знаменитыми произведениями писателя являются «Сентиментальное путешествие по Франции и Италии» и «Письма». Творчество Лоренса Стерна – символ переходной эпохи сентиментализма, где чувствительность невозможна без добродушной иронии.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2200000073396"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=wY9NDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=wY9NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=wY9NDwAAQBAJ&pg=PR15-IA1&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=20&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=wY9NDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=wY9NDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.05,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.05,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=wY9NDwAAQBAJ&rdid=book-wY9NDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 50000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 50000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D1%80%D0%B8%D1%81%D1%82%D1%80%D0%B0%D0%BC_%D0%A8%D0%B5%D0%BD%D0%B4%D0%B8-sample-epub.acsm?id=wY9NDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D1%80%D0%B8%D1%81%D1%82%D1%80%D0%B0%D0%BC_%D0%A8%D0%B5%D0%BD%D0%B4%D0%B8-sample-pdf.acsm?id=wY9NDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=wY9NDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eе\u003c/b\u003e д \u003cb\u003eе\u003c/b\u003e л о до 1 И Л И С p o К \u003cb\u003eа\u003c/b\u003e у П о м \u003cb\u003eя\u003c/b\u003e н у та \u003cb\u003eя\u003c/b\u003e Молл и н \u003cb\u003eе\u003c/b\u003e т \u003cb\u003eе\u003c/b\u003e с т в \u003cb\u003eе\u003c/b\u003e н н о м у и П О д р у г и М п \u003cb\u003eе\u003c/b\u003e р \u003cb\u003eе\u003c/b\u003e с т \u003cb\u003eа\u003c/b\u003e н \u003cb\u003eе\u003c/b\u003e т y ( \u003cb\u003eа\u003c/b\u003e т ь д \u003cb\u003eе\u003c/b\u003e т \u003cb\u003eе\u003c/b\u003e й В С л \u003cb\u003eе\u003c/b\u003e Д С Т в И \u003cb\u003eе\u003c/b\u003e y м о б р \u003cb\u003eа\u003c/b\u003e з о м п о м \u003cb\u003eя\u003c/b\u003e н у т ы й y о п р \u003cb\u003eе\u003c/b\u003e к и и y в о л ь н о г о Ж \u003cb\u003eе\u003c/b\u003e Л \u003cb\u003eа\u003c/b\u003e Н&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "kbdIDwAAQBAJ",
+      "etag": "uJ4RaGDOST0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/kbdIDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Под зонтиком надежды. (Сборник рассказов)",
+        "authors": [
+          "Яна Ломанова"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-01-24",
+        "description": "Давайте отправимся с героями в путешествие под названием «Жизнь». В их багаже — стремление к высшим идеалам и желание изменить мир к лучшему, а над ними — невидимый купол каверзной и непредсказуемой судьбы. Атаки следуют одна за другой. Несправедливость, зависть и лицемерие бьют без промаха. Их выстрелы — болезненны, стрелы — ядовиты. Слабость, покорность и равнодушие изнуряют после ранений. И вот уже кажется, что измена самому себе — это не предательство, а вынужденная мера, чтобы выжить… Хватит ли героям сил, укрывшись под зонтиком надежды, отпустить на волю сомнения, страх и боль, и не свернуть с пути любви, добра и милосердия?..",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000025750"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=kbdIDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=kbdIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=kbdIDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=21&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=kbdIDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=kbdIDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=kbdIDwAAQBAJ&rdid=book-kbdIDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9F%D0%BE%D0%B4_%D0%B7%D0%BE%D0%BD%D1%82%D0%B8%D0%BA%D0%BE%D0%BC_%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B-sample-epub.acsm?id=kbdIDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9F%D0%BE%D0%B4_%D0%B7%D0%BE%D0%BD%D1%82%D0%B8%D0%BA%D0%BE%D0%BC_%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B-sample-pdf.acsm?id=kbdIDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=kbdIDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Яна Ломанова. Да в \u003cb\u003eа\u003c/b\u003e й те о т п р \u003cb\u003eа\u003c/b\u003e в и м с \u003cb\u003eя\u003c/b\u003e с г \u003cb\u003eе\u003c/b\u003e р о \u003cb\u003eя\u003c/b\u003e м и в п у т \u003cb\u003eе\u003c/b\u003e ш \u003cb\u003eе\u003c/b\u003e с т в и \u003cb\u003eе\u003c/b\u003e п од н \u003cb\u003eа\u003c/b\u003e з в \u003cb\u003eа\u003c/b\u003e н и \u003cb\u003eе\u003c/b\u003e м АК и з н ь ». В и x ба га ж \u003cb\u003eе\u003c/b\u003e —с тр \u003cb\u003eе\u003c/b\u003e м л \u003cb\u003eе\u003c/b\u003e н и \u003cb\u003eе\u003c/b\u003e к вы с ш и м и д \u003cb\u003eе\u003c/b\u003e ал \u003cb\u003eа\u003c/b\u003e м и ж ел \u003cb\u003eа\u003c/b\u003e н и \u003cb\u003eе\u003c/b\u003e и 3 м \u003cb\u003eе\u003c/b\u003e н и т ь м и р к л у Ч Ш \u003cb\u003eе\u003c/b\u003e м у \u003cb\u003eа\u003c/b\u003e&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VoanDwAAQBAJ",
+      "etag": "8djcb/1dQs0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VoanDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Отключай!",
+        "authors": [
+          "Ребека Уна"
+        ],
+        "publisher": "ООО «ИЗДАТЕЛЬСКИЙ   ДОМ «САМОКАТ» ",
+        "publishedDate": "2019-08-06",
+        "description": "Четырнадцатилетней Грите трудно приспособиться к стерильно вычищенному миру, в котором не осталось ни ощущений, ни чувств. Все предметы, цвета, запахи перенесены в он-лайн систему, в которой интенсивно общаются люди. Однако Грите никак не удается быть как все. Она не может примириться с запретом бегать на стадионе и общаться с живыми людьми. Она тайком слушает рассказы о том, как когда-то люди шлепали по лужам, прикасались друг к другу, целовались, влюблялись. Однажды на опустевшем стадионе она встречает человека, похожего на нее. И почти одновременно с этим становится известно, что система придумала, как еще лучше контролировать людей. Грите и ее новому другу Мантасу придется решать, оставаться в системе или удрать из нее. Только возможно ли это? И какой ценой они заплатят за такой выбор?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785917598758"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5917598754"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 210,
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VoanDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VoanDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=VoanDwAAQBAJ&pg=PA2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=22&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=VoanDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VoanDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 6.49,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 6.17,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=VoanDwAAQBAJ&rdid=book-VoanDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 6490000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 6170000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9E%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%D0%B9-sample-epub.acsm?id=VoanDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9E%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%D0%B9-sample-pdf.acsm?id=VoanDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VoanDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eе\u003c/b\u003e н \u003cb\u003eя\u003c/b\u003e к \u003cb\u003eа\u003c/b\u003e к и \u003cb\u003eе\u003c/b\u003e то — э в о л ю ц и о н н ы \u003cb\u003eе\u003c/b\u003e д \u003cb\u003eе\u003c/b\u003e фе к ты и \u003cb\u003eя\u003c/b\u003e н \u003cb\u003eе\u003c/b\u003e п р и с п о с о б л \u003cb\u003eе\u003c/b\u003e н \u003cb\u003eа\u003c/b\u003e к со в р \u003cb\u003eе\u003c/b\u003e м \u003cb\u003eе\u003c/b\u003e н н о й ж и з н и \u003cb\u003eЯ\u003c/b\u003e н \u003cb\u003eа\u003c/b\u003e п р и м \u003cb\u003eе\u003c/b\u003e р п р о ч и тала y ч т о р \u003cb\u003eа\u003c/b\u003e н ы Ш \u003cb\u003ee\u003c/b\u003e л ю д и то и д \u003cb\u003eе\u003c/b\u003e л о | \u003cb\u003ee\u003c/b\u003e Л О В \u003cb\u003eа\u003c/b\u003e л и с ы Он и В 3 \u003cb\u003eа\u003c/b\u003e П р \u003cb\u003eа\u003c/b\u003e в Д у&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "y4pIDwAAQBAJ",
+      "etag": "YOJoqxBmQa0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/y4pIDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Группировка. Он, Она и Небо",
+        "authors": [
+          "Сергей Лесков"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-01-23",
+        "description": "В областном центре совершается разбойное нападение на автотранспорт одного из филиалов московского банка, в результате которого была похищена огромная сумма денежных средств в валюте. Организовал данное нападение недавно освободившийся из мест лишения свободы Озеров Виталий, который в определенных кругах обладает большим авторитетом и весом. Озерову еще ранее, до получения очередного срока, удалось организовать и сплотить вокруг себя троих молодых парней, которые хранили верность своему наставнику и его долю от их первого дела. Чтобы направить следствие по ложному следу, Озеров с соучастниками решают подставить кассира банка, на которую планируют списать слив информации и чуть ли не организацию всего разбойного нападения. Но совершенно случайно молодой женщине удается скрыться. Ее начинают искать и бандиты, и следствие, и частные сыщики, и служба безопасности потерпевшего банка. Вырваться из этого замкнутого круга, оставшись в живых, довольно сложно…",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000025064"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=y4pIDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=y4pIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=y4pIDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=23&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=y4pIDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=y4pIDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=y4pIDwAAQBAJ&rdid=book-y4pIDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D0%9E%D0%BD_%D0%9E%D0%BD%D0%B0_%D0%B8_%D0%9D-sample-epub.acsm?id=y4pIDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D0%9E%D0%BD_%D0%9E%D0%BD%D0%B0_%D0%B8_%D0%9D-sample-pdf.acsm?id=y4pIDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=y4pIDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eа\u003c/b\u003e д \u003cb\u003eе\u003c/b\u003e н и \u003cb\u003eе\u003c/b\u003e ед \u003cb\u003eа\u003c/b\u003e в н о о c в об од и в ш и й с \u003cb\u003eя и\u003c/b\u003e з м \u003cb\u003eе\u003c/b\u003e с т л и ш \u003cb\u003eе\u003c/b\u003e н и \u003cb\u003eя\u003c/b\u003e в об оды О з \u003cb\u003eе\u003c/b\u003e р о в В и т \u003cb\u003eа\u003c/b\u003e л и й к о т о р ы й в I р \u003cb\u003eе\u003c/b\u003e д \u003cb\u003eе\u003c/b\u003e л \u003cb\u003eе\u003c/b\u003e н н ы х к р у г \u003cb\u003eа\u003c/b\u003e х о б л \u003cb\u003eа\u003c/b\u003e д \u003cb\u003eа\u003c/b\u003e ет б о л ь ш и м т о р и т \u003cb\u003eе\u003c/b\u003e то м и в \u003cb\u003eе\u003c/b\u003e с ом Оз. \u003cb\u003eе\u003c/b\u003e р о в у \u003cb\u003eе\u003c/b\u003e щ \u003cb\u003eе\u003c/b\u003e р \u003cb\u003eа\u003c/b\u003e&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Fg5lDwAAQBAJ",
+      "etag": "W6L8Qgc7fEw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Fg5lDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Имеющий уши да услышит",
+        "authors": [
+          "Шинкарь Анжелика"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-07-12",
+        "description": "Семён вцепился взглядом в глаза Фриды. Забормотал заклятие, делая пассы руками и призывая к себе образы: вот Фрида покачнулась. Вот она потеряла волю. Вот словно зомби движется, ничего не видя перед собой. Кто-то шепчет сзади Семёна, но это неважно. Девушка с рыжими волосами вышла из зеркала и стала рядом. Он был Фридой в этот момент, он чувствовал, что так нужно. Все словно во сне, и Фрида почти слепа. Она бредёт к зеркалу. Проваливается внутрь, в самую глубину Зазеркалья. \"Имеющий уши да услышит\" - фэнтези -повесть о выпускнике университета колдовских наук Семене, попавшем по распределению в самую глухомань вместо ушедшей на повышение Василисы, юной, но очень талантливой ведьмочки. Его неловкие первые шаги в колдовском деле вызывают насмешки у местных жителей, но Семка старательно учится. Ему предстоит победить не только темные силы, но и свою неуверенность. А Василисе - понять, в чем же ее настоящая сила.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000057133"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Fg5lDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Fg5lDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=Fg5lDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=24&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Fg5lDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Fg5lDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Fg5lDwAAQBAJ&rdid=book-Fg5lDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%98%D0%BC%D0%B5%D1%8E%D1%89%D0%B8%D0%B9_%D1%83%D1%88%D0%B8_%D0%B4%D0%B0_%D1%83%D1%81%D0%BB%D1%8B%D1%88%D0%B8-sample-epub.acsm?id=Fg5lDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%98%D0%BC%D0%B5%D1%8E%D1%89%D0%B8%D0%B9_%D1%83%D1%88%D0%B8_%D0%B4%D0%B0_%D1%83%D1%81%D0%BB%D1%8B%D1%88%D0%B8-sample-pdf.acsm?id=Fg5lDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Fg5lDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Шинкарь Анжелика. С \u003cb\u003eе\u003c/b\u003e м ё н в ц \u003cb\u003eе\u003c/b\u003e п и л с \u003cb\u003eя\u003c/b\u003e в з г л \u003cb\u003eя\u003c/b\u003e д о м в гла за Ф р и д ы . За бор м о т \u003cb\u003eа\u003c/b\u003e л за к л \u003cb\u003eя\u003c/b\u003e т и \u003cb\u003ee\u003c/b\u003e ... \u003cb\u003eа\u003c/b\u003e л ь \u003cb\u003eя И\u003c/b\u003e м \u003cb\u003eе\u003c/b\u003e ю ц и й у ш и д \u003cb\u003eа\u003c/b\u003e у с л ы ш и т ф э н у-\u003cb\u003eе\u003c/b\u003e з и - о в \u003cb\u003eе\u003c/b\u003e с т ь о в ы п у c к н и к \u003cb\u003eе\u003c/b\u003e у н и в \u003cb\u003eе\u003c/b\u003e р с и те та л&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "V8VhDwAAQBAJ",
+      "etag": "Q3q84QIqO80",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/V8VhDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Наследники Земли",
+        "authors": [
+          "Бай Ксения"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-06-19",
+        "description": "Подчас жизнь преподносит нам сюрпризы, и всё оказывается не таким, каким казалось на первый взгляд. В этом на собственной шкуре успел убедиться командир специального подразделения «Альфа» майор Александр Волков. Казалось бы, у него было всё – семья, дом, любимая работа… Но неожиданная встреча перевернула его мир с ног на голову, а все самые невероятные фантазии об инопланетном разуме померкли в сравнении с ужасающей реальностью. Как быть майору, если спокойной жизни пришёл конец, а у захватчиков есть на него особые планы? Что лучше: сражаться или смириться с судьбой? Ответ один – борьба и только борьба! Ведь на кон поставлена не только его судьба, но и выживание всего человечества…",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000056662"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=V8VhDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=V8VhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=V8VhDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=25&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=V8VhDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=V8VhDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=V8VhDwAAQBAJ&rdid=book-V8VhDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8-sample-epub.acsm?id=V8VhDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8-sample-pdf.acsm?id=V8VhDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=V8VhDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Бай Ксения. Под ч а с Ж И 3 Н b П р е п од н о с и т Н а М с юр П р и 3 ы , и в с ё О К a 3 Б/ В \u003cb\u003eа е\u003c/b\u003e Т С \u003cb\u003eя\u003c/b\u003e Н e та к и м , к а к и м к а за л о с ь н а п е р в ы й в з г л \u003cb\u003eя\u003c/b\u003e д В э т о м н а с о б с т в е н н о й ш к уре у с п е л убед и т ь&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QNFJDwAAQBAJ",
+      "etag": "BOcQX93IT1k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QNFJDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Этнограф Иосиф",
+        "authors": [
+          "Андрей Хомченко"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-01-31",
+        "description": "У кого-то жизнь расписана по минутам, на неделю вперёд тщательно спланированы мероприятия: понедельник – отделить свет от тьмы, вторник - … Всё не так у литератора Курицына: непредсказуем его путь; два слова – «суета» и «пустословие» – исчерпывающе описывают будни юноши. Но не приговор современному обществу собирался писать Курицын. Напротив - книжку для развлечения. Фантастику! Про то, как этнограф Иосиф прибывает из далёкого будущего в наши суматошные времена; потомкам, видите ли, любопытно, чем мы тут занимаемся. - Ага, вот значит что, - наверное, подумали вы. – Снова прогрессоры и хрононавты. Опять будут кормить шаблонами, пичкать истёртыми истинами, нотациями утомлять… - так нет, без морализаторства обошёлся автор. Придётся вам всё же прочесть эту книжку, чтобы окунуться в неповторимую атмосферу приморского городка. Чтобы от чтения получить удовольствие. Чтобы в кругу друзей, сидя за чашкой чая, иметь возможность сказать: - А вы читали роман об этнографе? Это феноменально…",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000046328"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Юмор"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QNFJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QNFJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=QNFJDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=26&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=QNFJDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QNFJDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=QNFJDwAAQBAJ&rdid=book-QNFJDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%AD%D1%82%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D1%84_%D0%98%D0%BE%D1%81%D0%B8%D1%84-sample-epub.acsm?id=QNFJDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%AD%D1%82%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D1%84_%D0%98%D0%BE%D1%81%D0%B8%D1%84-sample-pdf.acsm?id=QNFJDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QNFJDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eа\u003c/b\u003e н \u003cb\u003eа\u003c/b\u003e п о м и н у там , Н \u003cb\u003eа\u003c/b\u003e н \u003cb\u003eе\u003c/b\u003e д \u003cb\u003eе\u003c/b\u003e л Ю в п \u003cb\u003eе\u003c/b\u003e р ёд тLц \u003cb\u003eа\u003c/b\u003e т \u003cb\u003eе\u003c/b\u003e л ь н О с п л \u003cb\u003eа\u003c/b\u003e н и р о в \u003cb\u003eа\u003c/b\u003e н ы м \u003cb\u003eе\u003c/b\u003e р о п р и \u003cb\u003eя\u003c/b\u003e т и \u003cb\u003eя\u003c/b\u003e п о н \u003cb\u003eе\u003c/b\u003e д \u003cb\u003eе\u003c/b\u003e л ь н и к —\u003cb\u003eе\u003c/b\u003e тд ел и т ь с в \u003cb\u003eе\u003c/b\u003e т о т т ь м ы в т о р н и к — В с ё н \u003cb\u003eе\u003c/b\u003e та к у л и т \u003cb\u003eе\u003c/b\u003e р \u003cb\u003eа\u003c/b\u003e т о р \u003cb\u003eа\u003c/b\u003e Кур и ц ы на \u003cb\u003eе\u003c/b\u003e&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "a52FDwAAQBAJ",
+      "etag": "9MvegAnwuZE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/a52FDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Павлиний хвост",
+        "authors": [
+          "Максишко Роман"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2019-01-21",
+        "description": "Изучая архивы, молодой ученый Сергей Гущин находит дневник репрессированного профессора Великанова, из которого узнает об открытии им в Колумбии в далеком 1932 году загадочного минерала исанита, обладающего способностью управлять ядерной реакцией. Нигде в мире этот минерал больше не встречается, поэтому компетентные люди решают вложиться в дорогостоящую технологию синтеза исанита. Гущин считает эту затею авантюрой. Продолжая поиски, он находит месторождение в России, но погибает при загадочных обстоятельствах. Его друг Егор Жаров – некогда студент-геолог, а ныне офицер ФСБ не верит в то, что Сергей погиб случайно. Рискуя карьерой и жизнью, он берется распутать это дело",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000066654"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 682,
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=a52FDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=a52FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=a52FDwAAQBAJ&pg=PT3&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=27&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=a52FDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=a52FDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.63,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.63,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=a52FDwAAQBAJ&rdid=book-a52FDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2630000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2630000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9F%D0%B0%D0%B2%D0%BB%D0%B8%D0%BD%D0%B8%D0%B9_%D1%85%D0%B2%D0%BE%D1%81%D1%82-sample-epub.acsm?id=a52FDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9F%D0%B0%D0%B2%D0%BB%D0%B8%D0%BD%D0%B8%D0%B9_%D1%85%D0%B2%D0%BE%D1%81%D1%82-sample-pdf.acsm?id=a52FDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=a52FDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eя\u003c/b\u003e б р \u003cb\u003eя\u003c/b\u003e 1932) д а Д е р е в е н ь к а в , к от о р о й мы в с т а л и л а г е р е м н а м е с т н о м Н а р е ч и и Н a 3 b/ В \u003cb\u003eа е\u003c/b\u003e Т С \u003cb\u003eЯ\u003c/b\u003e У а р и р а м ба ,ч то 3 Н а Ч И Т п р и б е ж и ще у а р И )) К о р е н н о г о Н а р О Д a На с е л \u003cb\u003eя\u003c/b\u003e&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7UtNDwAAQBAJ",
+      "etag": "iv0cS+9Rwy4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7UtNDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Тернистым путем",
+        "authors": [
+          "Георг Эберс"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-02-22",
+        "description": "«Тернистым путем» - роман знаменитого писателя, профессора египтологии Лейпцигского университета, Георга Морица Эберса (Georg Mauritz Ebers, 1837 – 1898). Ученый-папиролог, Эберс открыл в 1873-74 гг. уникальный свиток в Луксоре, хранящий сведения о медицине древнего Египта.*** В романе описываются события III века до н.э. Город Александрия, как и весь Египет, находится под властью римского императора Септимия Бассиана. Жестокий, непредсказуемый нрав правителя – настоящее горе для его подданных. Жители города еще не знают, что их ждет. В центре сюжета оказываются Мелисса и ее брат – дети знаменитого художника…. Георг Эберс совершил две научные экспедиции в Египет. В его произведениях необходимый художественный Художественная литература искусно переплетается с историческими фактами, яркой и подробной реконструкцией эпохи. Среди самых известных романов Эберса – «Дочь фараона», «Сестры», «Иисус Навин», «Император», «Homo sum».",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2200000089144"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7UtNDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7UtNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=7UtNDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=28&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=7UtNDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=7UtNDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.03,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.03,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=7UtNDwAAQBAJ&rdid=book-7UtNDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 30000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 30000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D0%B5%D1%80%D0%BD%D0%B8%D1%81%D1%82%D1%8B%D0%BC_%D0%BF%D1%83%D1%82%D0%B5%D0%BC-sample-epub.acsm?id=7UtNDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D0%B5%D1%80%D0%BD%D0%B8%D1%81%D1%82%D1%8B%D0%BC_%D0%BF%D1%83%D1%82%D0%B5%D0%BC-sample-pdf.acsm?id=7UtNDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7UtNDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eа\u003c/b\u003e н з н \u003cb\u003eа\u003c/b\u003e м \u003cb\u003eе\u003c/b\u003e н и т о г о п и с \u003cb\u003eа\u003c/b\u003e тел \u003cb\u003eя\u003c/b\u003e , п р о фе с с о ра \u003cb\u003eе\u003c/b\u003e Г И П Т О Л О Г И И Ле й п ц и г c к о г о у н и в \u003cb\u003eе\u003c/b\u003e р с и те та Г, e o p га М о р и ц \u003cb\u003eа\u003c/b\u003e Эбер с \u003cb\u003eа\u003c/b\u003e (Georg Mauritz Ebers, 1837—1898)У ч \u003cb\u003eе\u003c/b\u003e н ы й п \u003cb\u003eа\u003c/b\u003e п и р о л о г Э б \u003cb\u003eе\u003c/b\u003e р с от к&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3dN4DwAAQBAJ",
+      "etag": "qXEm6qX0YFQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3dN4DwAAQBAJ",
+      "volumeInfo": {
+        "title": "А зори здесь тихие...",
+        "authors": [
+          "Борис Васильев"
+        ],
+        "publishedDate": "2017-10-17",
+        "description": "Они были молодыми и кокетливыми, веселыми и очень задорными. Они любили петь, мечтали о любви, ждали ее как чуда. Но на их землю внезапно пришла война – губящая жизни, уничтожающая мечты, убивающая любовь. Им приходится противостоять целому миру зла, ненависти, боли, отчаяния, страданий. Произведение Бориса Васильева \"А зори здесь тихие...\" повествует о судьбах и подвиге пяти самоотверженных девушек-зенитчиц и их командира во время Великой Отечественной войны.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783962557423"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3962557423"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 260,
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3dN4DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3dN4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=3dN4DwAAQBAJ&pg=PT304&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=29&source=gbs_api",
+        "infoLink": "http://books.google.fr/books?id=3dN4DwAAQBAJ&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%D0%90_%D0%B7%D0%BE%D1%80%D0%B8_%D0%B7%D0%B4%D0%B5%D1%81%D1%8C_%D1%82%D0%B8%D1%85%D0%B8%D0%B5.html?hl=&id=3dN4DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%90_%D0%B7%D0%BE%D1%80%D0%B8_%D0%B7%D0%B4%D0%B5%D1%81%D1%8C_%D1%82%D0%B8%D1%85%D0%B8%D0%B5-sample-epub.acsm?id=3dN4DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%90_%D0%B7%D0%BE%D1%80%D0%B8_%D0%B7%D0%B4%D0%B5%D1%81%D1%8C_%D1%82%D0%B8%D1%85%D0%B8%D0%B5-sample-pdf.acsm?id=3dN4DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3dN4DwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Борис Васильев. ты ч \u003cb\u003eе\u003c/b\u003e м п р \u003cb\u003eе\u003c/b\u003e д с т \u003cb\u003eа\u003c/b\u003e в л \u003cb\u003eя е\u003c/b\u003e ш ь ?), В О \u003cb\u003eе\u003c/b\u003e г О С т \u003cb\u003eа\u003c/b\u003e р и К \u003cb\u003eа\u003c/b\u003e Н \u003cb\u003eа\u003c/b\u003e о н \u003cb\u003ee\u003c/b\u003e T П О С К О Н Н О И К \u003cb\u003eа\u003c/b\u003e Н О т \u003cb\u003eя\u003c/b\u003e т \u003cb\u003eе\u003c/b\u003e й Ч Т-9 т о \u003cb\u003ee\u003c/b\u003e - т с т \u003cb\u003eа\u003c/b\u003e л и р \u003cb\u003eа\u003c/b\u003e 3 ы с К и в \u003cb\u003eа\u003c/b\u003e т ь - И К \u003cb\u003eа\u003c/b\u003e Л \u003cb\u003eа\u003c/b\u003e н \u003cb\u003eе\u003c/b\u003e у с П.\u003cb\u003eе\u003c/b\u003e л д о П и с \u003cb\u003eа\u003c/b\u003e т ь y у тр о м о к \u003cb\u003eа\u003c/b\u003e з ы в&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "lMd4DwAAQBAJ",
+      "etag": "9W9yRYGncig",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lMd4DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Как вам это понравится",
+        "authors": [
+          "Уильям Шекспир"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2017-03-28",
+        "description": "Комедия «Как вам это понравится» - творение, вышедшее из-под пера гениального английского драматурга Уильяма Шекспира (англ. William Shakespeare, 1564-1616).*** Это невероятная история о любви, бунтарстве и великодушии. Храбрец Орландо тайно влюблен в Розалинду, дочь свергнутого правителя французского герцогства. Уильям Шекспир – автор всемирно известных сонетов, пьес «Ромео и Джульетта», «Гамлет», «Макбет» и «Отелло», а также великолепных комедий «Двенадцатая ночь, или Что угодно?», «Сон в летнюю ночь», «Бесплодные усилия любви», «Виндзорские насмешницы», «Два веронца» и «Как вам это понравится». Творчество великого английского поэта уже несколько столетий покоряет мировые театральные сцены: по количеству сыгранных пьес Уильям Шекспир занимает первое место.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783961648016"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3961648018"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 411,
+        "printType": "BOOK",
+        "categories": [
+          "Драма"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lMd4DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lMd4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=lMd4DwAAQBAJ&pg=PT1&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=30&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=lMd4DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lMd4DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 0.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=lMd4DwAAQBAJ&rdid=book-lMd4DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lMd4DwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Уильям Шекспир. К о м \u003cb\u003eе\u003c/b\u003e д и \u003cb\u003eя\u003c/b\u003e «К \u003cb\u003eа\u003c/b\u003e к вам э т о п о н р \u003cb\u003eа\u003c/b\u003e в и т с \u003cb\u003eя\u003c/b\u003e » - т в о р \u003cb\u003eе\u003c/b\u003e н и \u003cb\u003ee\u003c/b\u003e , в ы ш едш ее и 3 п о д п \u003cb\u003eе\u003c/b\u003e р \u003cb\u003eа\u003c/b\u003e Г \u003cb\u003ee\u003c/b\u003e H И \u003cb\u003eа\u003c/b\u003e Л Ь Н О Г \u003cb\u003eО а\u003c/b\u003e н г л и й с К о г о д р \u003cb\u003eа\u003c/b\u003e м \u003cb\u003eа\u003c/b\u003e тур га У и л ь \u003cb\u003eя\u003c/b\u003e м \u003cb\u003eа\u003c/b\u003e Ш \u003cb\u003ee\u003c/b\u003e к с п и р \u003cb\u003eа а\u003c/b\u003e (н гл William Shakespeare,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8NRkTYYrQ_0C",
+      "etag": "CVkSn4gNqAY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8NRkTYYrQ_0C",
+      "volumeInfo": {
+        "title": "Казань в ея прошлом и настоящем",
+        "subtitle": "очерки по истории, достопримѣчательностям и современному положению города, с приложением кратких адресных свѣдѣний",
+        "authors": [
+          "Михаил Пинегин"
+        ],
+        "publishedDate": "1890-01-01",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NKP:3186311387"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 712,
+        "printType": "BOOK",
+        "categories": [
+          "История"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8NRkTYYrQ_0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8NRkTYYrQ_0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=8NRkTYYrQ_0C&pg=PA574&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=31&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=8NRkTYYrQ_0C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8NRkTYYrQ_0C"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=8NRkTYYrQ_0C&rdid=book-8NRkTYYrQ_0C&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.fr/books/download/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C_%D0%B2_%D0%B5%D1%8F_%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%BC_%D0%B8.epub?id=8NRkTYYrQ_0C&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8NRkTYYrQ_0C&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eА\u003c/b\u003e. Заварицкій . Почетные мировые судьи : дѣйств . ст . сов . Н. \u003cb\u003eА\u003c/b\u003e. Осокинъ ; отст . гвард . поручикъ Вл . Вад . Молоствовъ ; кол . с . \u003cb\u003eА\u003c/b\u003e. В. Казаковъ ; н . сов . Ос . Ст . Викторовъ ; н . сов . Ив . Мат . Поповъ ; ст . сов . Роб . Анд&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "sftGDwAAQBAJ",
+      "etag": "9zLe7q80UU0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/sftGDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Девять жизней",
+        "authors": [
+          "Каримов Гумер"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-01-16",
+        "description": "Открывая роман, читатель ждёт чего-то необычного и невероятного. И здесь автор не обманывает. Инопланетное посещение Павловского парка YULой и необычная встреча с Юркой вносит в произведение привкус фантастичности и сказочности. А ещё мечта о SAGITTARIUSе, которая обязательно должна осуществится. И она непременно сбудется — если не у героя, то у его потомков. Это роман о любви, о творчестве, о готовности человека к смерти. Это роман о жизни: от детства до смертельной болезни, из которой тоже бывает выход к ангелу или дьяволу, но выход. Это роман о смысле жизни, о счастье, которое само по себе такая тяжкая доля!",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000020243"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=sftGDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=sftGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=sftGDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=32&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=sftGDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=sftGDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=sftGDwAAQBAJ&rdid=book-sftGDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%94%D0%B5%D0%B2%D1%8F%D1%82%D1%8C_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D0%B9-sample-epub.acsm?id=sftGDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%94%D0%B5%D0%B2%D1%8F%D1%82%D1%8C_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D0%B9-sample-pdf.acsm?id=sftGDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=sftGDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Каримов Гумер. От к р ы в \u003cb\u003eа я\u003c/b\u003e р о м \u003cb\u003eа\u003c/b\u003e н , ч и т \u003cb\u003eа\u003c/b\u003e т \u003cb\u003eе\u003c/b\u003e л ь ж д ё т ч \u003cb\u003eе\u003c/b\u003e г о-то н \u003cb\u003eе\u003c/b\u003e о бы ч н о г о и н \u003cb\u003eе\u003c/b\u003e в \u003cb\u003eе\u003c/b\u003e р о \u003cb\u003eя\u003c/b\u003e т н о го . И з д \u003cb\u003eе\u003c/b\u003e с ь \u003cb\u003eа\u003c/b\u003e в то p Н \u003cb\u003ee\u003c/b\u003e о б м \u003cb\u003eа\u003c/b\u003e н ы в a e т . И н о п л \u003cb\u003eа\u003c/b\u003e н \u003cb\u003eе\u003c/b\u003e т н о \u003cb\u003eе\u003c/b\u003e п о с \u003cb\u003eе\u003c/b\u003e щ \u003cb\u003eе\u003c/b\u003e н и \u003cb\u003eе\u003c/b\u003e Па в л о в c к о г о п \u003cb\u003eа\u003c/b\u003e р к&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qvtTDwAAQBAJ",
+      "etag": "TC5U+rT4234",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qvtTDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Живи и помни",
+        "authors": [
+          "Валентин Распутин"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-04-04",
+        "description": "Повесть Валентина Распутина «Живи и помни» насыщена психологическими ситуациями, выход из которых очень нелегко найти. Андрей Гуськов после лечения в госпитале не отправляется на фронт, а дезертирует и тайком возвращается в свое родное село на Ангаре. Он понимает, что там его не ждут с распростертыми объятиями, а надеется лишь на помощь и понимание своей жены Настены. Вот именно на ее долю и приходятся тяжелые испытания в отношениях с сельчанами, она с горечью понимает, особенно после того, как забеременела, безысходность своего положения, неотвратимость своей судьбы. «Устала она. Знал бы кто, как она устала и как хочется отдохнуть», — с горечью констатирует автор повести «Живи и помни». Эта усталость и тяжелые мысли подталкивают Настену к самоубийству.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000055047"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qvtTDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qvtTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=qvtTDwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=34&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=qvtTDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qvtTDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=qvtTDwAAQBAJ&rdid=book-qvtTDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%96%D0%B8%D0%B2%D0%B8_%D0%B8_%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8-sample-epub.acsm?id=qvtTDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%96%D0%B8%D0%B2%D0%B8_%D0%B8_%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8-sample-pdf.acsm?id=qvtTDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qvtTDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... а л е н е о т п р а в л \u003cb\u003eя\u003c/b\u003e е т с \u003cb\u003eя\u003c/b\u003e н а ф р о н т a д ез е р т и p у е т и та й к о м в о з в р а щ \u003cb\u003eа е\u003c/b\u003e т с \u003cb\u003eя\u003c/b\u003e в c в о е р о д н о е с ел о н а А н г а р е 0 н п о н и м \u003cb\u003eа е\u003c/b\u003e т ч т о т а м е г о н е ждут с р а с п р о с т е р т ы м и о б ь \u003cb\u003eя\u003c/b\u003e т&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3CEIAwAAQBAJ",
+      "etag": "L7CzH+V+CGw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3CEIAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Основы теории горения и газификации твердого топлива",
+        "authors": [
+          "Борис Канторович"
+        ],
+        "publisher": "Рипол Классик",
+        "publishedDate": "2013-01-01",
+        "description": "This book, \"Osnovy teorii goreniya i gazifikatsii tverdogo topliva,\" by B.V. Kantorovich, is a replication of a book originally published before 1958. It has been restored by human beings, page by page, so that you may enjoy it in a form as close to the original as possible.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785458682138"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5458682130"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 606,
+        "printType": "BOOK",
+        "categories": [
+          "Наука"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3CEIAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3CEIAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=3CEIAwAAQBAJ&pg=PA587&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=35&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=3CEIAwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3CEIAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 5.8,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 5.8,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=3CEIAwAAQBAJ&rdid=book-3CEIAwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 5800000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 5800000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D0%B8_%D0%B3%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D1%8F-sample-pdf.acsm?id=3CEIAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3CEIAwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eе\u003c/b\u003e п. Ргоо. Воу. Боо., 126, НА 801, 231—245, 19301 392. т. Н. с 111 1 и п \u003cb\u003eа\u003c/b\u003e. \u003cb\u003eА\u003c/b\u003e. Р. с о 1 Ь от и. ша. Еве. СЬеш ... \u003cb\u003eЯ\u003c/b\u003e. Л. Забежинский и \u003cb\u003eА\u003c/b\u003e. Н. Тихонов. ЖФХ, 19, 253, 1945; 20, 1113, 1946; 23, 192—201, 1949. 403. С. С. Р 11 т и \u003cb\u003eа\u003c/b\u003e 521118. Ева&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "pFBHDwAAQBAJ",
+      "etag": "hqHNRJyq3bQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/pFBHDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Пушистые технологии викинга П. Сидорова",
+        "authors": [
+          "Виталий Аксенов"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-01-17",
+        "description": "Многочисленные события и документальные факты в этой невероятной истории, несомненно, соответствуют действительности!И завязаны в неудержимую, можно сказать, бесконтрольную и даже, скажем прямо - безответственную! - фантазию автора. Знаете ли вы, мои доверчивые друзья, что наша жизнь удивительным образом подчинена Могущественным Прогрессивным Пушистым технологиям?! И каждый может совершенно неожиданно обнаружить, что он, оказывается, Потомственный викинг! Или, что еще невероятнее - частично возрожденный Легендарный Кентавр!.. Прочтите эту книгу, и вы станете счастливым обладателем Самых актуальных и конструктивных рекомендаций, как преуспеть в мире прогрессивных Пушистых Технологий.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000001358"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=pFBHDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=pFBHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=pFBHDwAAQBAJ&pg=PT7&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=36&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=pFBHDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=pFBHDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=pFBHDwAAQBAJ&rdid=book-pFBHDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9F%D1%83%D1%88%D0%B8%D1%81%D1%82%D1%8B%D0%B5_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8_%D0%B2-sample-epub.acsm?id=pFBHDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%9F%D1%83%D1%88%D0%B8%D1%81%D1%82%D1%8B%D0%B5_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8_%D0%B2-sample-pdf.acsm?id=pFBHDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=pFBHDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... а \u003cb\u003eа е\u003c/b\u003e Т В и и у в е р е н ы л у Ч Ш И Х Т О Л Ь К О Тра Д И Ц И \u003cb\u003eЯ\u003c/b\u003e о п р о 48e96н н ы X a69 ё6p46 К26а н ц е в с о б с т в е н н ы х К О С М О Н а В Т b/ Н e 3 а Г Л \u003cb\u003eЯ\u003c/b\u003e Д ы В з м е р и м о л у Ч Ш е С Т В Т И ... е Л О В И К в з л е тел и, Т е."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "P71ODwAAQBAJ",
+      "etag": "P2i9ZKxQz8A",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/P71ODwAAQBAJ",
+      "volumeInfo": {
+        "title": "Три холма, охраняющие край света",
+        "authors": [
+          "Михаил Успенский"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2018-03-02",
+        "description": "Альтернативное настоящее. По всему миру разгул антиглобалистов, террористов и пофигистов. Шабаш демократии и свободомыслия! И кому, как не фантастической русской девушке Лидочке, юному и очень героическому шотландскому лорду Терри Фицморису, вкупе с испанцем Понсиано Давила спасать Землю от неминуемой катастрофы, вызванной таинственным похищением детского рисунка из сверхохраняемого супермузея? Лихой полусказочный, полуфантастический детектив от Михаила Успенского. Останетесь довольны.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:SMP2300000054019"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=P71ODwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=P71ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=P71ODwAAQBAJ&pg=PT2&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=37&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=P71ODwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=P71ODwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.11,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=P71ODwAAQBAJ&rdid=book-P71ODwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2110000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D1%80%D0%B8_%D1%85%D0%BE%D0%BB%D0%BC%D0%B0_%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D1%8F%D1%8E%D1%89%D0%B8%D0%B5-sample-epub.acsm?id=P71ODwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A2%D1%80%D0%B8_%D1%85%D0%BE%D0%BB%D0%BC%D0%B0_%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D1%8F%D1%8E%D1%89%D0%B8%D0%B5-sample-pdf.acsm?id=P71ODwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=P71ODwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Михаил Успенский. \u003cb\u003eА\u003c/b\u003e л ь т \u003cb\u003eе\u003c/b\u003e р н \u003cb\u003eа\u003c/b\u003e т и в н о \u003cb\u003eе\u003c/b\u003e Н a С Т О \u003cb\u003eя\u003c/b\u003e Lц e e . по в с \u003cb\u003eе\u003c/b\u003e м у м и p у р \u003cb\u003eа\u003c/b\u003e з гул \u003cb\u003eа\u003c/b\u003e н т и гл о бал и с то в , т \u003cb\u003eе\u003c/b\u003e р р о р и с т о в и п о ф и г и с то в . Ша баш д \u003cb\u003eе\u003c/b\u003e м о к р \u003cb\u003eа\u003c/b\u003e т и и и с в об од о мы с л и \u003cb\u003eя И\u003c/b\u003e к о м у , К \u003cb\u003eа\u003c/b\u003e к&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4hUoBwAAQBAJ",
+      "etag": "Vq1g8OBFszI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4hUoBwAAQBAJ",
+      "volumeInfo": {
+        "title": "Философия Лейбница. Процесс образования системы. Первый период. 1659–1672",
+        "authors": [
+          "Иосиф Ягодинский"
+        ],
+        "publisher": "Directmedia",
+        "publishedDate": "2013-07-17",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785445824206"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5445824209"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "categories": [
+          "Философия"
+        ],
+        "pageCount": 456,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4hUoBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4hUoBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=4hUoBwAAQBAJ&pg=PA418&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=38&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=4hUoBwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4hUoBwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1.58,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 1.58,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=4hUoBwAAQBAJ&rdid=book-4hUoBwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1580000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 1580000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D0%B8%D1%8F_%D0%9B%D0%B5%D0%B9%D0%B1%D0%BD%D0%B8%D1%86%D0%B0_%D0%9F%D1%80-sample-pdf.acsm?id=4hUoBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4hUoBwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eе\u003c/b\u003e в о з м о ж по о у с л о в і \u003cb\u003eе\u003c/b\u003e п р \u003cb\u003eа\u003c/b\u003e и и л ь п о п по ч и с т о м у п р и в л и \u003cb\u003eе\u003c/b\u003e образу етъ и и к \u003cb\u003eа\u003c/b\u003e к о г \u003cb\u003eа\u003c/b\u003e у с л н и \u003cb\u003eа\u003c/b\u003e о п р \u003cb\u003eа\u003c/b\u003e н и в и). необходимое у \u003cb\u003eе\u003c/b\u003e л о в і \u003cb\u003eе\u003c/b\u003e о б р \u003cb\u003eа я\u003c/b\u003e у етъ ч и то и ра во (в5) Н \u003cb\u003eе\u003c/b\u003e п п р \u003cb\u003eе\u003c/b\u003e д ѣ л \u003cb\u003eе\u003c/b\u003e п н о \u003cb\u003eе\u003c/b\u003e у с л&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-c94DwAAQBAJ",
+      "etag": "J30fm6NR8DU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-c94DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Собрание творений",
+        "authors": [
+          "Ефрем Сирин"
+        ],
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishedDate": "2017-08-11",
+        "description": "Ефрем Сирин — один из великих учителей церкви IV века, христианский богослов и поэт родился в городе Низибии. Еще юношей он удалился в окрестные горы и стал отшельником. После взятия Низибии персами в 363 году преподобный покинул места своего отшельничества и поселился в монастыре близ города Едессы, где и оставался до кончины (ок. 373–379). Преподобный Ефрем Сирин сочетал с подвижническими трудами непрестанное изучение слова Божия, черпая в нем для своей души умиление и мудрость. Творения выдающегося мыслителя раннехристианской эпохи, представленные в данной книге, остаются, несомненно, актуальными и сегодня для врачевания души современного человека.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783962177508"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3962177507"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 1333,
+        "printType": "BOOK",
+        "categories": [
+          "Религия"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-c94DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-c94DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=-c94DwAAQBAJ&pg=PT1590&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=39&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=-c94DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-c94DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.49,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 2.49,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=-c94DwAAQBAJ&rdid=book--c94DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2490000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2490000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-c94DwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eе\u003c/b\u003e к о г. д \u003cb\u003eа\u003c/b\u003e п р \u003cb\u003eе\u003c/b\u003e т к н \u003cb\u003eе\u003c/b\u003e ш и о н о г у т в о ю На \u003cb\u003eа\u003c/b\u003e с п и да и К \u003cb\u003eа\u003c/b\u003e На с т у П И Ш и и y и л ь в a и з м и \u003cb\u003eя Я\u003c/b\u003e к о н \u003cb\u003eа\u003c/b\u003e М \u003cb\u003eя\u003c/b\u003e з б \u003cb\u003eа\u003c/b\u003e в л ю и п, о к р ы ю и \u003cb\u003eя\u003c/b\u003e к о: y М о \u003cb\u003eе\u003c/b\u003e В оз з о в \u003cb\u003ee\u003c/b\u003e т к о М н \u003cb\u003eе\u003c/b\u003e } \u003cb\u003eе\u003c/b\u003e Г О С Н И М \u003cb\u003ee\u003c/b\u003e С М b : В м у \u003cb\u003eе\u003c/b\u003e г о и п р&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "IMdeDwAAQBAJ",
+      "etag": "WMt0X0/CcAs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/IMdeDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Сад костей",
+        "authors": [
+          "Тесс Герритсен"
+        ],
+        "publisher": "Азбука-Аттикус",
+        "publishedDate": "2018-06-06",
+        "description": "После тяжелого развода Джулия хочет начать новую жизнь и покупает приглянувшийся старый дом в пригороде Бостона, невзирая на то что прежнюю хозяйку нашли на участке мертвой. Джулия самозабвенно возделывает свой садик и натыкается на скелет, пролежавший в земле около двух столетий. Судмедэкспертиза сообщает, что это была молодая женщина, которая погибла насильственной смертью. Факт, не слишком приятный для владелицы дома, — две смерти на одном и том же месте, при невыясненных обстоятельствах... Однако на них проливают свет старые документы, оставшиеся от прежней хозяйки дома. Постепенно перед Джулией раскрывается таинственная история известного в XIX веке хирурга и талантливого поэта Оливера Венделла Холмса и Вест-Эндского потрошителя...",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785389150850"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5389150856"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 416,
+        "printType": "BOOK",
+        "categories": [
+          "Художественная литература"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=IMdeDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=IMdeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink": "http://books.google.fr/books?id=IMdeDwAAQBAJ&pg=PT619&dq=%D0%BE+%D0%B0+%D1%83+%D0%B5+%D1%8F+%D0%B8&hl=&as_brr=5&cd=40&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=IMdeDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=IMdeDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 7.37,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 7,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=IMdeDwAAQBAJ&rdid=book-IMdeDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 7370000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 7000000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A1%D0%B0%D0%B4_%D0%BA%D0%BE%D1%81%D1%82%D0%B5%D0%B9-sample-epub.acsm?id=IMdeDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/%D0%A1%D0%B0%D0%B4_%D0%BA%D0%BE%D1%81%D1%82%D0%B5%D0%B9-sample-pdf.acsm?id=IMdeDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=IMdeDwAAQBAJ&hl=&as_brr=5&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... а у к e 7 к а р а д ы э т о м у в е д ь В а м у и Н О М у И 3 в е С 7 Н О н е ,т бл а город н е е ч е М Т p у Д е М ... \u003cb\u003eя\u003c/b\u003e п р е д к о в Те к то К И е ж и 3 н и о б р е т а ю т y бе с c м е р т и \u003cb\u003eя И\u003c/b\u003e В м и о б е р е г \u003cb\u003eа е\u003c/b\u003e м ы х и в и н а&nbsp;..."
+      }
+    }
+  ]
+}

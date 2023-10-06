@@ -1,0 +1,32 @@
+<div class="Pagination">
+  <ul class="pagination">
+    <li class="page-item" :class="{ 'disabled': currentPage === 1 }">
+      <a class="page-link" href="#" @click.prevent="getBooks(1)">
+        <img src="/static/frontend/assets/img/icons/prevPagination.svg" alt="prevPagination.svg"/>
+      </a>
+    </li>
+
+    <li v-if="currentPage > 3" class="page-item disabled">
+      <span class="page-link">...</span>
+    </li>
+
+    <li v-for="i in Math.min(5, lastPage)" :key="i" class="page-item">
+      <a class="page-link"
+         :class="{ 'Pagination-element_current': i === currentPage }"
+         @click.prevent="getBooks(i)"
+         href="#">
+        {{ i }}
+      </a>
+    </li>
+
+    <li v-if="currentPage < lastPage - 2" class="page-item disabled">
+      <span class="page-link">...</span>
+    </li>
+
+    <li class="page-item" :class="{ 'disabled': currentPage === lastPage }">
+      <a class="page-link" href="#" @click.prevent="getBooks(lastPage)">
+        <img src="/static/frontend/assets/img/icons/nextPagination.svg" alt="nextPagination.svg"/>
+      </a>
+    </li>
+  </ul>
+</div>

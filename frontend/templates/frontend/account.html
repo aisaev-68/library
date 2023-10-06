@@ -1,0 +1,45 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<div class="container-fluid p-0">
+    <div class="row col-12 m-0">
+        <div class="form-login col-12 d-flex justify-content-between align-items-center">
+            <div>
+                <p>Личный кабинет</p>
+            </div>
+            <div>
+                <p><a href="/">Главная</a> / Личный кабинет</p>
+            </div>
+        </div>
+    </div>
+    <div class="row account">
+        <div class="col-lg-3">
+            {% include 'includes/profile-menu.html' %}
+        </div>
+        <div class="col-lg-9 p-0 m-0">
+            <div class="avatar-content">
+                <div class="d-flex align-items-center">
+                    <div class="account-avatar">
+                        <img v-if="avatar" :src="avatar" :alt="avatar.alt" class="img-fluid"/>
+                    </div>
+                    <div class="account-column">
+                        <div class="account-name">${ fullName }$</div>
+                        <a class="account-edit-link pt-2" href="/profile">Редактировать профиль</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% else %}
+{% include 'includes/no-authorized.html' %}
+{% endif %}
+{% endblock %}
+
+{% block mixins %}
+<script src="{% static 'frontend/assets/js/userAccount.js' %}"></script>
+{% endblock %}

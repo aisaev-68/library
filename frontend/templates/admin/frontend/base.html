@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>
+        {% block title %}
+        Библиотека
+        {% endblock %}
+    </title>
+    <meta name="description" content="Описание страницы">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link href="{% static 'frontend/favicon.ico' %}" rel="shortcut icon">
+    <link rel="preload" href="{% static 'frontend/assets/fonts/Roboto/Roboto-Regular.woff' %}" as="font">
+    <link rel="preload" href="{% static 'frontend/assets/fonts/Roboto/Roboto-Italic.woff' %}" as="font">
+    <link rel="preload" href="{% static 'frontend/assets/fonts/Roboto/Roboto-Bold.woff' %}" as="font">
+    <link rel="preload" href="{% static 'frontend/assets/fonts/Roboto/Roboto-Bold_Italic.woff' %}" as="font">
+    <link rel="preload" href="{% static 'frontend/assets/fonts/Roboto/Roboto-Light.woff' %}" as="font">
+    <link rel="preload" href="{% static 'frontend/assets/fonts/Roboto/Roboto-Light_Italic.woff' %}" as="font">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/fonts.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/basic.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/extra.css' %}">
+    <script src="{% static 'frontend/assets/plg/jQuery/jquery-3.5.0.slim.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/plg/range/ion.rangeSlider.min.js' %}"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/maska@2/dist/maska.umd.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!--      <script src="{% static 'frontend/assets/plg/vue.global.js' %}"></script>-->
+    <script src="{% static 'frontend/assets/plg/CountDown/countdown.js' %}"></script>
+</head>
+<body class="Site" id="site">
+<header class="Header">
+    <div class="ControlPanel">
+        <div class="wrap">
+            <div class="row ControlPanel-row">
+                <div class="row-block">
+                    <div class="row ControlPanel-rowSplit">
+                        <div class="row-block hide_700"><span class="ControlPanel-title">Подписывайтесь на нас</span>
+                            <ul class="menu menu_img menu_smallImg ControlPanel-menu">
+                                <li class="menu-item"><a class="menu-link" href="#"><img
+                                        src="{% static 'frontend/assets/img/icons/socialHeader/fb.svg' %}"
+                                        alt="fb.svg"/></a>
+                                </li>
+                                <li class="menu-item"><a class="menu-link" href="#"><img
+                                        src="{% static 'frontend/assets/img/icons/socialHeader/tw.svg' %}"
+                                        alt="tw.svg"/></a>
+                                </li>
+                                <li class="menu-item"><a class="menu-link" href="#"><img
+                                        src="{% static 'frontend/assets/img/icons/socialHeader/in.svg' %}"
+                                        alt="in.svg"/></a>
+                                </li>
+                                <li class="menu-item"><a class="menu-link" href="#"><img
+                                        src="{% static 'frontend/assets/img/icons/socialHeader/pt.svg' %}"
+                                        alt="pt.svg"/></a>
+                                </li>
+                                <li class="menu-item"><a class="menu-link" href="#"><img
+                                        src="{% static 'frontend/assets/img/icons/socialHeader/mail.svg' %}"
+                                        alt="mail.svg"/></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <nav class="row-block">
+                    <div class="row ControlPanel-rowSplit">
+                        {% if user.is_authenticated %}
+                        <div class="row-block">
+                            <a class="ControlPanel-title" href="{{ request.user.get_url }}">{{ user.username }}</a>
+                        </div>
+                        <div class="row-block">
+                            <a class="ControlPanel-title" href="{% url 'logout' %}">Выход</a>
+                        </div>
+                        {% else %}
+                        <div class="row-block">
+                            <a class="ControlPanel-title" href="{% url 'login' %}">Вход</a>
+                        </div>
+                        <div class="row-block">
+                            <a class="ControlPanel-title" href="{% url 'register' %}">Регистрация</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="row Header-rowMain">
+            <div class="row-block Header-logo">
+                <a class="logo" href="/" >
+                    <img class="logo-image" style="width: 250px;"
+                         src="{% static 'frontend/assets/img/elibrary_ru.svg' %}"
+                         alt="elibrary_ru.svg"/>
+                </a>
+            </div>
+            <nav class="row-block row-block_right Header-menu">
+                <div class="menuModal" id="navigate">
+                    <ul class="menu menu_main">
+                        <li class="menu-item">
+                            <a class="menu-link" href="/">
+                                Главная
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a class="menu-link" href="">
+                                Книги
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <span class="menu-link">
+                                Авторы
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row-block Header-trigger">
+                <a class="menuTrigger" href="#navigate">
+                    <div class="menuTrigger-content">Навигация</div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="Header-searchWrap">
+        <div class="wrap">
+            <div class="Header-searchLink"><img src="{% static 'frontend/assets/img/icons/search.svg' %}"
+                                                alt="search.svg"/>
+            </div>
+            <div class="Header-search">
+                <div class="search">
+                    <!--                    <form class="form form_search" method="get" action="/catalog/">-->
+                    <form class="form form_search" @submit.prevent="search">
+                        <input class="search-input" id="query" name="query" type="text" v-model="searchText"
+                               placeholder="Что Вы ищете ..."/>
+                        <button class="search-button" type="submit"><img
+                                src="{% static 'frontend/assets/img/icons/search.svg' %}" alt="search.svg"/>Поиск
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% block content %}
+{% endblock %}
+
+<footer class="Footer">
+    <div class="wrap">
+        <div class="row Footer-main">
+            <div class="row-block"><a class="logo Footer-logo" href="/"><img class="logo-image"
+                                                                             src="{% static 'frontend/assets/img/logo_footer.png' %}"
+                                                                             alt="logo_footer.png"/></a>
+                <p>Билиотека содержит огромное количество художественных и научных книг.
+                </p>
+                <ul class="menu menu_img menu_smallImg Footer-menuSoc">
+                    <li class="menu-item"><a class="menu-link" href="#"><img
+                            src="{% static 'frontend/assets/img/icons/socialFooter/fb.svg' %}" alt="fb.svg"/></a></li>
+                    <li class="menu-item"><a class="menu-link" href="#"><img
+                            src="{% static 'frontend/assets/img/icons/socialFooter/tw.svg' %}" alt="tw.svg"/></a></li>
+                    <li class="menu-item"><a class="menu-link" href="#"><img
+                            src="{% static 'frontend/assets/img/icons/socialFooter/in.svg' %}" alt="in.svg"/></a></li>
+                    <li class="menu-item"><a class="menu-link" href="#"><img
+                            src="{% static 'frontend/assets/img/icons/socialFooter/pt.svg' %}" alt="pt.svg"/></a></li>
+                    <li class="menu-item"><a class="menu-link" href="#"><img
+                            src="{% static 'frontend/assets/img/icons/socialFooter/mail.svg' %}" alt="mail.svg"/></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row-block">
+                <strong class="Footer-title">Полезные ссылки
+                </strong>
+                <ul class="menu menu_vt Footer-menu">
+                    <li class="menu-item"><a class="menu-link" href="#">Главная</a>
+                    </li>
+                    <li class="menu-item"><a class="menu-link" href="#">Книги</a>
+                    </li>
+                    <li class="menu-item"><a class="menu-link" href="#">Авторы</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row-block">
+                <strong class="Footer-title">Контакты
+                </strong>
+                <p>Телефон: +7 (928) 548 44 31<br>Email: aisaev-68@yandex.ru<br>Skype: aisaev68<br>Адрес: Махачкала,
+                    улица<br>Северная
+                    26/7<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="Footer-copy">
+        <div class="wrap">
+            <div class="row row_space">
+                <div class="row-block">© Copyright&#32;<a href="#">Библиотека.</a>&#32;Все права защищены.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{% block mixins %}
+{% endblock %}
+<script src="{% static 'frontend/assets/js/app.js' %}"></script>
+<!--<script src="{% static 'frontend/assets/plg/jQuery/jquery-3.5.0.slim.min.js' %}"></script>-->
+<script src="{% static 'frontend/assets/plg/form/jquery.form.js' %}"></script>
+<script src="{% static 'frontend/assets/plg/form/jquery.maskedinput.min.js' %}"></script>
+<!--<script src="{% static 'frontend/assets/plg/range/ion.rangeSlider.min.js' %}"></script>-->
+<script src="{% static 'frontend/assets/plg/Slider/slick.min.js' %}"></script>
+<script src="{% static 'frontend/assets/js/scripts.js' %}"></script>
+</body>
+</html>

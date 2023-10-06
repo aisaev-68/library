@@ -1,0 +1,49 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+
+{% block title %}
+    Регистрация
+{% endblock %}
+
+{% block script_css %}
+<link rel="stylesheet" href="{% static 'frontend/assets/css/register.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="Middle-top" style="margin-bottom: 21px; padding-top: 20px;padding-bottom: 20px;">
+    <div class="wrap">
+        <div class="Middle-header">
+            <h1 class="Middle-title">Регистрация пользователя</h1>
+            <ul class="breadcrumbs Middle-breadcrumbs">
+                <li class="breadcrumbs-item"><a href="/">Главная</a></li>
+                <li class="breadcrumbs-item breadcrumbs-item_current"><span>Регистрация</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<section class="wrapper">
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}" style="color: #2fa225; text-align: center;">
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% endif %}
+    <form method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column; align-items: center;">
+        {% csrf_token %}
+        {% for field in form %}
+        <div class="form-group">
+            <p class="form-field" style="">
+                {{ field }}
+            </p>
+        </div>
+        {% endfor %}
+        <div class="form-group">
+            <button class="btn btn_success" type="submit">
+                Зарегистрировать
+            </button>
+        </div>
+    </form>
+</section>
+{% endblock %}

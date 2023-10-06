@@ -1,0 +1,48 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+{% block title %}
+Вход
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row col-12 m-0">
+        <div class="form-login col-12 d-flex justify-content-between align-items-center">
+            <div>
+                <p>Вход</p>
+            </div>
+            <div>
+                <p><a href="/">Главная</a> / Вход</p>
+            </div>
+        </div>
+    </div>
+    <div class="raw d-flex justify-content-center">
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}" style="color: #2fa225; text-align: center;">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        <form class="pt-5" method="post" action="">
+            {% csrf_token %}
+            {% for field in form %}
+            <div class="form-group pt-1">
+                <p class="form-field" style="">{{ field }}</p>
+            </div>
+            {% endfor %}
+            <div class="form-group">
+                <a class="forgot-label" href="">Забыли пароль?</a>
+            </div>
+            <div class="form-group pb-5">
+                <button class="btn btn-success" type="submit" data-toggle="button" aria-pressed="false" autocomplete="off">Вход
+                </button>
+                <a href="{% url 'register' %}" class="btn btnsuccess"
+                   >Регистрация</a>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
+

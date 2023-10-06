@@ -1,0 +1,26 @@
+{% extends "frontend/base.html" %}
+{% load static %}
+
+{% block title %}
+  Вход
+{% endblock %}
+
+{% block script_css %}
+<link rel="stylesheet" href="{% static 'frontend/assets/css/register.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="Middle-top" style="margin-bottom: 21px; padding-top: 20px;padding-bottom: 20px;">
+    <div class="wrap">
+        <div class="Middle-header">
+            <h1 class="Middle-title">Вход</h1>
+            <ul class="breadcrumbs Middle-breadcrumbs">
+                <li class="breadcrumbs-item"><a href="/">Главная</a></li>
+                <li class="breadcrumbs-item breadcrumbs-item_current"><span>Вход</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% include 'includes/log-in.html' %}
+{% endblock %}
+
