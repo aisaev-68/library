@@ -1,7 +1,7 @@
 import logging
 from datetime import datetime
 from django.conf import settings
-from django.db.models import Q, Avg, Count
+from django.db.models import Q, Avg, Count, ObjectDoesNotExist
 from django.core.paginator import Paginator
 from rest_framework.response import Response
 from rest_framework.request import Request
@@ -18,6 +18,7 @@ from rest_framework.authentication import SessionAuthentication
 
 from catalog import models
 from catalog import serializers
+from catalog import errors
 
 logger = logging.getLogger(__name__)
 
@@ -67,6 +68,14 @@ def add_catalog_params(func):
         ]
     )(func)
 
+
+class CustomAPIView(APIView):
+    def handle_exception(self, exc):
+        if isinstance(exc, errors.BaseBookAPIException):
+            return Response({"error": str(exc)}, status=exc.status_code)
+
+        # Возвращаем дефолтный ответ для остальных исключений
+        return super().handle_exception(exc)
 
 class GenreAPIView(APIView):
     """
@@ -183,7 +192,7 @@ class BookAPIView(APIView):
         return Response(response_data, status=status.HTTP_200_OK)
 
 
-class BookIdAPIView(APIView):
+class BookIdAPIView(CustomAPIView):
     """
     Представление для получения книги по ее ID.
     """
@@ -194,11 +203,17 @@ class BookIdAPIView(APIView):
         operation_description="Получение книги по Id",
     )
     def get(self, request: Request, pk: int) -> Response:
-        queryset = models.Book.objects.get(pk=pk)
+        try:
+            queryset = models.Book.objects.get(pk=pk)
 
-        response_data = serializers.BookSerializer(queryset, many=False).data
-        logger.info(f"Получены книга по id {pk}.")
+            response_data = serializers.BookSerializer(queryset, many=False).data
+            logger.info(f"Получена книга по id {pk}.")
+        except ObjectDoesNotExist:
+            logger.info(f"Ошибка получения книги по id {pk}.")
+            raise errors.BaseBookAPIException(pk)
+
         return Response({'bookInfo': response_data}, status=status.HTTP_200_OK)
+
 
 
 class BookDetailAPIView(APIView):
@@ -211,10 +226,14 @@ class BookDetailAPIView(APIView):
         operation_description="Получение детальной информации о книге",
     )
     def get(self, request, pk) -> Response:
-        queryset = models.Book.objects.prefetch_related('reviews').get(pk=pk)
-        queryset.title = queryset.title[:50]
-        serializer = serializers.BookReviewsSerializer(queryset, many=False)
-        logger.info('Получена детальная информация о книге № %s', queryset.id)
+        try:
+            queryset = models.Book.objects.prefetch_related('reviews').get(pk=pk)
+            queryset.title = queryset.title[:50]
+            serializer = serializers.BookReviewsSerializer(queryset, many=False)
+            logger.info('Получена детальная информация о книге № %s', queryset.id)
+        except ObjectDoesNotExist:
+            logger.info(f"Ошибка получения детальной информации о книге по id {pk}.")
+            raise errors.BaseBookAPIException(f"Ошибка получения детальной информации о книге по id {pk}.")
 
         return Response(serializer.data, status=status.HTTP_200_OK)
 
@@ -297,7 +316,7 @@ class SearchAPIView(APIView):
         return Response(response_data, status=status.HTTP_200_OK)
 
 
-class BookReviewAPIView(APIView):
+class BookReviewAPIView(CustomAPIView):
     """
     Представление для создания отзывов о книге.
     """
@@ -318,15 +337,24 @@ class BookReviewAPIView(APIView):
         operation_description="меню добавления отзывов",
     )
     def post(self, request: Request, pk: int, *args, **kwargs) -> Response:
-        data = request.data
+        try:
+            data = request.data
 
-        review = models.Review.objects.create(
-            user=request.user,
-            text=data['text'],
-            date=datetime.now(),
-            rate=data['rate'],
-            book_id=pk
-        )
-        serializer = self.serializer_class(review, many=False)
-        logger.info('Сохранение отзыва о книге пользователем %s', request.user)
-        return Response([serializer.data], status=status.HTTP_201_CREATED)
+            # Проверяем наличие необходимых данных для создания отзыва
+            if 'text' not in data or 'rate' not in data:
+                raise errors.BaseBookAPIException("Некорректные данные для создания отзыва.")
+
+            # Пытаемся создать отзыв
+            review = models.Review.objects.create(
+                user=request.user,
+                text=data['text'],
+                date=datetime.now(),
+                rate=data['rate'],
+                book_id=pk
+            )
+
+            serializer = self.serializer_class(review, many=False)
+            logger.info('Сохранение отзыва о книге пользователем %s', request.user)
+            return Response([serializer.data], status=status.HTTP_201_CREATED)
+        except ObjectDoesNotExist:
+            raise errors.BaseBookAPIException("Книга с указанным ID не найдена.")
