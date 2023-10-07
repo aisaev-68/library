@@ -70,12 +70,16 @@ def add_catalog_params(func):
 
 
 class CustomAPIView(APIView):
+    """
+    Переопределение класаа APIView для обработки ошибок.
+    """
+
     def handle_exception(self, exc):
         if isinstance(exc, errors.BaseBookAPIException):
             return Response({"error": str(exc)}, status=exc.status_code)
 
-        # Возвращаем дефолтный ответ для остальных исключений
         return super().handle_exception(exc)
+
 
 class GenreAPIView(APIView):
     """
@@ -213,7 +217,6 @@ class BookIdAPIView(CustomAPIView):
             raise errors.BaseBookAPIException(pk)
 
         return Response({'bookInfo': response_data}, status=status.HTTP_200_OK)
-
 
 
 class BookDetailAPIView(APIView):
