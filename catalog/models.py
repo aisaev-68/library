@@ -35,6 +35,7 @@ class Genre(models.Model):
 
 class Author(models.Model):
     """Модель авторов книг."""
+
     first_name = models.CharField(
         max_length=100,
         help_text="Введите имя автора книги",
@@ -80,6 +81,7 @@ def get_upload_path_by_products(instance, filename):
 
 class Book(models.Model):
     """Модель книг."""
+
     title = models.CharField(
         max_length=100,
         help_text="Введите название книги",
@@ -155,6 +157,7 @@ class BookImage(models.Model):
     """
     Модель изображения книги.
     """
+
     image = models.FileField(upload_to=get_upload_path_by_products, verbose_name='Изображение книги')
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='images',
                              verbose_name='Книга')
