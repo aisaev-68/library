@@ -7,6 +7,7 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 
 from account.models import User
 
+
 class Genre(models.Model):
     """Модель жанров."""
 
@@ -181,8 +182,6 @@ class Review(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='reviews',
                              verbose_name='Пользователь')
     rate = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(5)], verbose_name='Оценка')
-    # author = models.CharField(max_length=128, verbose_name='Автор') #оставлю их для использования не зарегистрированными пользователями
-    # email = models.EmailField(max_length=254, verbose_name='Email') #оставлю их для использования не зарегистрированными пользователями
     text = models.TextField(verbose_name='Текст отзыва')
     date = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='reviews',
